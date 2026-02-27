@@ -1,0 +1,673 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 10,
+        "fields": {
+            "year": 1976,
+            "summary": "<p>President Gerald Ford attempts to win election to office after replacing Richard Nixon in 1974, and narrowly defeating Ronald Reagan for the Republican nomination. Jimmy Carter is a new face on the national scene, having served as Governor of Georgia. He will make the case that the nation needs new blood after the scandals of the Nixon era. Both candidates are seen as moderate by the standards of their party. The battleground states are in the West, the Midwest, and the Northeast.</p>",
+            "image_url": "https://www.jetsimon.com/public/static/images/1976-election-photo.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/jordan-cheney-1976.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1976 Election Books and Biographies</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/0670454613/amhius20-20\" target=\"_blank\">Jules Witcover - Marathon: The Pursuit of the Presidency, 1972-1976</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/1590843630/amhius20-20\" target=\"_blank\">The Election of 1976 and the Administration of Jimmy Carter</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B007V955ZS/amhius20-20\" target=\"_blank\">Craig Shirley - Reagan's Revolution: The Untold Story of the Campaign That Started It All</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B001KBY7YI/amhius20-20\" target=\"_blank\">Douglas Brinkley - Gerald R. Ford</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0805089578/amhius20-20\" target=\"_blank\">Julian E. Zelizer - Jimmy Carter</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1976 - Altitude"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 91,
+        "fields": {
+            "first_name": "Henry",
+            "last_name": "Jackson",
+            "election": 10,
+            "party": "Democratic",
+            "state": "Washington",
+            "priority": 1,
+            "description": "<p>Jimmy Carter has served as Governor of Georgia for one term, and has never held an elected office in Washington. In an era of public disgust with Watergate, Vietnam, and the economy, Carter has used his outsider status to win the Democratic nomination. He is an outspoken Southern Baptist, and a moderate within the party on social and economic issues. He begins with an early lead in the polls against Gerald Ford.</p>",
+            "color_hex": "#33339e",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://www.jetsimon.com/public/static/images/jimmy-carter-1976.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can make good on your promises to clean up Washington and change the political and moral culture of the country. If you are successful, there is no reason you cannot run for reelection in 1980. Just be wary of any economic problems, or of some foreign policy crisis that could dent your popularity.</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>As an outsider candidate, this was really your moment to make an impact on American politics and to win a national election. The beltway gossip already has it that Ted Kennedy is the frontrunner for the 1980 nomination. Perhaps you can run again for Governor of Georgia, or make an impact in some other way.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect you in that manner. Hopefully the closeness of this election doesn't undermine your promises to clean up Washington and unite the people of this country.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 92,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Republicans",
+            "election": 10,
+            "party": "Republican",
+            "state": "Michigan",
+            "priority": 2,
+            "description": "<p>Gerald Ford assumed the Presidency on August 9, 1974, after the resignation of Richard Nixon. His pardon of Nixon is deeply unpopular and is feeding the sentiment for an outsider to assume office. Inflation and unemployment have both weighed on Ford's popularity. On the other hand, Ford enjoys the stature of a President and has negotiated with many foreign leaders. He starts the campaign in second place, and must make up ground quickly while keeping his party united.</p>",
+            "color_hex": "#bc3846",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/gerald-ford-1976.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can continue to help the United States recover from the Watergate Scandal, the recent recession, and the debacle of Vietnam. In either case, this will be your final term as President. Speculation is sure to be intense on who will replace you. Will it be Ronald Reagan? Ted Kennedy? Or someone else entirely?</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>Hopefully your opponent can make good on his promises to clean up Washington and change the political and moral culture of the country. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
+            "no_electoral_majority_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect your opponent in that manner. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 93,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Idealists",
+            "election": 10,
+            "party": "Independent",
+            "state": "Minnesota",
+            "priority": 3,
+            "description": "''",
+            "color_hex": "#197156",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 94,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Nutjobs",
+            "election": 10,
+            "party": "Independent",
+            "state": "Alaska",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#e69100",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 95,
+        "fields": {
+            "first_name": "Mo",
+            "last_name": "Udall",
+            "election": 10,
+            "party": "Democratic",
+            "state": "Arizona",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/walter-mondale-1976.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Walter Mondale is a Senator from Minnesota, a protege of Hubert H. Humphrey, and a key figure for mainstream Democrats. He would help unite the party after a competitive primary, and could help greatly in his home state. Mondale is also a good team player and very eager to help on the campaign.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 96,
+        "fields": {
+            "first_name": "Frank",
+            "last_name": "Church",
+            "election": 10,
+            "party": "Democrat",
+            "state": "Idaho",
+            "priority": 6,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/frank-church-1976.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Frank Church is a Senator from Idaho, and one of Carter's rivals in the 1976 primaries. He is known for his opposition to the Vietnam War, and his investigations of America's intelligence bureaus. Both of these factors make him appealing to the anti-war bloc of the Democratic Party, and have made him a well-known, national figure in politics. He is also outgoing and charismatic, and could overshadow a more soft-spoken Carter.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 97,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Glenn",
+            "election": 10,
+            "party": "Democrat",
+            "state": "Ohio",
+            "priority": 7,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/john-glenn-1976.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>John Glenn became the first American to orbit the earth during the Space Race of the 1960s. Now serving as a Senator from Ohio, he could be crucial to winning that state in November. Unfortunately, his keynote speech at the national convention has just landed with a thud. He is relatively new to the Senate and still has some outsider appeal, and does not have a long history with any particular wing of the party.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 98,
+        "fields": {
+            "first_name": "Scoop",
+            "last_name": "Jackson",
+            "election": 10,
+            "party": "Democrat",
+            "state": "Washington",
+            "priority": 8,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/scoop-jackson-1976.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Henry \"Scoop\" Jackson is a Senator from Washington who also attempted to secure the 1976 Democratic nomination. He is a more traditional Democrat, favoring both high levels of social spending and a strong national defense policy. He is not popular with the left wing of the party, but would certainly help with moderates, and could swing his home state in the fall elections.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 99,
+        "fields": {
+            "first_name": "Bob",
+            "last_name": "Dole",
+            "election": 10,
+            "party": "Republican",
+            "state": "Kansas",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/bob-dole-1976.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Bob Dole is a well-respected, conservative Senator from Kansas. He could unite the party after a divisive primary fight -- Ronald Reagan has singled Dole out as a good choice for running mate. He is popular in the farm states and could help consolidate support in the Plains and Midwest. He is also known to have loose lips on the campaign trail, and does not hold back in his attacks.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 100,
+        "fields": {
+            "first_name": "Howard",
+            "last_name": "Baker",
+            "election": 10,
+            "party": "Republican",
+            "state": "Tennessee",
+            "priority": 10,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/howard-baker-1976.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Howard Baker is a Senator from Tennessee who has served since 1967, and who was nearly appointed to the Supreme Court by Richard Nixon. The first Republican since Reconstruction to be elected to the Senate from his state, he is heavily involved in the passage of most legislation, and is a leading voice among Congressional Republicans. He has a moderate reputation, and is not a first choice of the Reaganites.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 101,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Anderson",
+            "election": 10,
+            "party": "Republican",
+            "state": "Illinois",
+            "priority": 11,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/john-anderson-1976.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>John Anderson is a long-time Congressman from Illinois who has conservative fiscal views, moderate social views, and was a strong critic of Richard Nixon during the Watergate hearings. His presence could help win moderates and could swing the state of Illinois. He could also help mitigate, at least somewhat, against Carter's outsider reputation. He would not do much to win back the conservative, Reaganite wing of the party.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 102,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Connally",
+            "election": 10,
+            "party": "Republican",
+            "state": "Texas",
+            "priority": 12,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/john-connally-1968.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>John Connally bolted from the Democrats to the Republicans in 1973. He was Governor of Texas for six years, and could help greatly in winning that state. He is strong on defense issues and conservative on social issues, and could even be seen as an olive branch to the Reaganites. He has good name-recognition, having been wounded in Kennedy's assassination.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 103,
+        "fields": {
+            "first_name": "...",
+            "last_name": "Other",
+            "election": 10,
+            "party": "Independent",
+            "state": "Alaska",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 104,
+        "fields": {
+            "first_name": "...",
+            "last_name": "Other",
+            "election": 10,
+            "party": "Independent",
+            "state": "Alaska",
+            "priority": 14,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 67,
+        "fields": {
+            "candidate": 94,
+            "running_mate": 104
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 66,
+        "fields": {
+            "candidate": 93,
+            "running_mate": 103
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 62,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 99
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 58,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 95
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 63,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 100
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 59,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 96
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 60,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 97
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 61,
+        "fields": {
+            "candidate": 91,
+            "running_mate": 98
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 64,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 101
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 65,
+        "fields": {
+            "candidate": 92,
+            "running_mate": 102
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Dan Bryan"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 10,
+        "candidates": [
+            91,
+            92,
+            93,
+            94
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 10,
+        "candidates": [
+            91,
+            92,
+            93,
+            94
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 10,
+        "year": 1976,
+        "is_premium": 0,
+        "display_year": "1976 - Altitude"
+    }
+]
+
+jet_data = {
+    "headerColor": "#323b7b",
+    "windowColor": "#435a9d",
+    "containerColor": "#38468a",
+    "innerWindowColor": "#e3e2f4",
+    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "𝙰𝚕𝚝𝚒𝚝𝚞𝚍𝚎"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>𝙰𝚕𝚝𝚒𝚝𝚞𝚍𝚎</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#323b7b";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#435a9d";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#38468a";
+
+document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#e3e2f4!important;}</style>";
+
+//#endcode
+
+(function () {
+  let style = document.createElement("style");
+  style.type = "text/css";
+  style.id = "altitude-ui";
+
+  style.innerHTML = `
+/* =========================
+   ALTITUDE — BASE UI
+========================= */
+
+body {
+  background-color: #eef2ff !important;
+  color: #000000 !important;
+}
+
+.game_header {
+  background: linear-gradient(180deg, #323b7b, #2b3366) !important;
+}
+
+#game_window {
+  background: #435a9d !important;
+}
+
+.container {
+  background: #38468a !important;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+}
+
+/* =========================
+   INNER WINDOWS
+========================= */
+
+.inner_window,
+.inner_window_question {
+  background: #dde3f6 !important;
+  border: 1px solid #b8c4ea !important;
+  color: #000000 !important;
+}
+
+/* =========================
+   QUESTION BAR (H3)
+========================= */
+
+.inner_window_question h3,
+.overlay_window h3,
+#state_info h3,
+#state_result h3,
+#overall_result h3 {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #b8c4ea !important;
+  padding: 8px 1px;
+  margin-bottom: 11px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+}
+
+/* =========================
+   ANSWERS — AIR SHIMMER
+   (FIXED SELECTOR)
+========================= */
+
+/* Gentle altitude-style motion */
+@keyframes altitudeFloat {
+  0% {
+    transform: translateY(0);
+    box-shadow: 0 0 0 rgba(255,255,255,0);
+  }
+  50% {
+    transform: translateY(-2px);
+    box-shadow: 0 0 12px rgba(255,255,255,0.65);
+  }
+  100% {
+    transform: translateY(0);
+    box-shadow: 0 0 0 rgba(255,255,255,0);
+  }
+}
+
+/* ✅ CORRECT: game_answers */
+.game_answers > div {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #cfd6ff !important;
+  margin-bottom: 8px;
+  animation: altitudeFloat 2.8s ease-in-out infinite;
+}
+
+/* Ensure text stays readable */
+.game_answers > div * {
+  color: #000000 !important;
+}
+
+/* Subtle stagger for depth */
+.game_answers > div:nth-child(2) { animation-delay: 0.25s; }
+.game_answers > div:nth-child(3) { animation-delay: 0.5s; }
+.game_answers > div:nth-child(4) { animation-delay: 0.75s; }
+
+/* =========================
+   CANDIDATE BIOS
+========================= */
+
+.inner_window_w_desc {
+  background: #e3e2f4 !important;
+}
+
+.inner_window_w_desc *,
+.inner_window_w_desc p,
+.inner_window_w_desc div,
+.inner_window_w_desc span,
+.inner_window_w_desc li {
+  color: #000000 !important;
+  opacity: 1 !important;
+}
+
+.inner_window_w_desc h1,
+.inner_window_w_desc h2,
+.inner_window_w_desc h3 {
+  color: #1a1a1a !important;
+}
+
+.inner_window_w_desc img {
+  border: 1px solid #8a93c9 !important;
+}
+
+/* =========================
+   LINKS / RESULTS
+========================= */
+
+a {
+  color: #323b7b;
+}
+a:hover {
+  color: #1f2552;
+}
+
+#results_container {
+  color: #000000 !important;
+}
+
+/* =========================
+   MAP SAFETY
+========================= */
+
+#map_container,
+#map {
+    background: linear-gradient(180deg, #ffffff 0%, #c5c5c5 50%, #9fa1b6 100%) !important;
+}
+  `;
+
+  document.head.appendChild(style);
+})();
