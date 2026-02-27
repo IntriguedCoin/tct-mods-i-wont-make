@@ -1,0 +1,842 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 21,
+        "fields": {
+            "year": 2020,
+            "summary": "<p>The Biden presidency has left much to be desired. With Joe being forced to drop out, his vice president Elizabeth Warren was the one to take his place. A quick roll call vote quickly cemented her place as Biden's successor. Now, here's the hard part: defeating Donald J. Trump. The fascistic demagogue is back again after being defeated 4 years earlier. Now, Warren must prove she can defeat a dictator in the making.</p>\n<p>Trump seems set to enter the White House once more after the public's reaction to the Biden administration's failures. With her campaign being attacked by most flanks, Warren must prove the doubters wrong and win this election. And if she doesn't, American democracy is doomed.</p>",
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/WarrenElection.jpeg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/dillon-stepien.jpg",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2024 - Overtime"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "Elizabeth",
+            "last_name": "Warren",
+            "election": 21,
+            "party": "Democratic",
+            "state": "Massachusetts",
+            "priority": 1,
+            "description": "<div style='overflow-y:scroll;height:200px;'>\"We don't win what we don't fight for.\"</p>\n<p>Elizabeth Warren didn't want these circumstances. She simply expected to serve out Biden's administration to clear the way for a progressive to be coronated in 2028. Now, that plan has obviously fallen apart. She only has three months until Election Day to unite a party that was already doubting the president she served under. Warren and her hastily put together campaign are weighed down by president Biden's failures, and given little time to explain where she differs from the president.</p>\n<p>The vice president knows her chances aren't looking good. The polls certainly look grim for Democrats down ballot as well. If Warren hadn't been vice president for three long years at this point, she would've been defending her seat this year. She almost wishes that was the case, as running a nationwide campaign in a year that's shaping up to be a red wave will almost certainly lead to a loss compared to a race in an extremely Democratic state.</p>\n<p>Elizabeth knows that she must save America; after all, her opponent is a fascist who's hellbent on getting revenge on his opponents and restricting the rights of Americans just because of who they are. Losing would not simply mean defeat: It would mean surrendering the country to something far worse.</p>\n\n<p>Still, not all hope is lost.</p></div>",
+            "color_hex": "#000075",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/Warren.jpeg",
+            "electoral_victory_message": "<p>This guy wins!</p>",
+            "electoral_loss_message": "<p>this guy loses!</p>",
+            "no_electoral_majority_message": "<p>we all win?</p>",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 301,
+        "fields": {
+            "first_name": "Donald",
+            "last_name": "Trump",
+            "election": 21,
+            "party": "Republican",
+            "state": "Florida",
+            "priority": 2,
+            "description": "<p>diddy</p>",
+            "color_hex": "#850000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/donald-trump-2020.jpg",
+            "electoral_victory_message": "<p>this guy wins!</p>",
+            "electoral_loss_message": "<p>this guy loses!</p>",
+            "no_electoral_majority_message": "<p>we all win?</p>",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 302,
+        "fields": {
+            "first_name": "Robert",
+            "last_name": "Kennedy Jr/Others",
+            "election": 21,
+            "party": "Various",
+            "state": "Various",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#2d0070",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 303,
+        "fields": {
+            "first_name": "Jill",
+            "last_name": "Stein/Other",
+            "election": 21,
+            "party": "Green",
+            "state": "Massachusetts",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#007500",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 304,
+        "fields": {
+            "first_name": "Josh",
+            "last_name": "Shapiro",
+            "election": 21,
+            "party": "Democratic",
+            "state": "Pennsylvania",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/shapiro.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<div style='overflow-y:scroll;height:200px;'><p>\"Now, more than ever, we yearn for and need a world defined by faith.\"<p>Governor Shapiro is an interesting pick, even if he's not an exciting one. Within hours after your campaign was announced, he was on the phone with you in order for some deal to be made. The man doesn't even pretend that he isn't ambitious for greater power: He views you as a ticket to the White House in 2028, considering that you likely won't run for another term. Besides that, he's the governor of Pennsylvania, a state you'll need to win. He's decently popular in the state, so your chances there may improve slightly.</p>\n<p>Shapiro is also a boring, moderate choice. Progressives won't be thrilled about that, and will likely think you're planning on running on a more moderate platform. Shapiro is also quite pro-Israel, which would further erode the little progressive support you'd have remaining after picking him. He's also Jewish, which shouldn't matter to most voters, but the far-right is ready to spread vile and disgusting attacks aimed at him.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 305,
+        "fields": {
+            "first_name": "Ro",
+            "last_name": "Khanna",
+            "election": 21,
+            "party": "Democratic",
+            "state": "California",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/khanna.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Susan Rice was a UN Ambassador and a National Security Advisor to Barack Obama, and brings decades of foreign policy experience. She would be a true center-left pick, but has never run for elected office. Her foreign policy record would also be a turnoff to progressives.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 306,
+        "fields": {
+            "first_name": "Pete",
+            "last_name": "Buttigieg",
+            "election": 21,
+            "party": "Democratic",
+            "state": "Indiana",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/buttigieg.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<div style='overflow-y:scroll;height:200px;'><p>\"The shape of our democracy is the issue that effects every other issue.\"</p>Secretary Buttigieg is a fine choice if you want the establishment to keep backing you. Once the mayor of an obscure city, Buttigieg ran against you and Biden in the 2020 primaries. There's zero hard feelings, though: He views defeating Trump as more important than past grievances. He was the Secretary of Transportation under Biden's administration. Still, Pete only gained prominence from his run in 2020, and it's risky to shove a candidate that's unproven nationally into the spotlight.</p> Your advisors think he could be a good pick to appeal to moderate midwestern voters, although considering that he's not polling well with black voters at all, he'd certainly hurt your chances in the South, especially the crucial states of Georgia and North Carolina. Pete was also in the military, which would definitely make your campaign look better, although it's unlikely that that fact would make anyone vote for you. Plus, progressives won't exactly be thrilled to have an establishmentarian on the ticket, which will cause even more headaches for your campaign that you absolutely do not need. Besides that, right-wingers will launch vile attacks against Pete over the fact that he's an openly gay man.</p></div>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 307,
+        "fields": {
+            "first_name": "Alexandria",
+            "last_name": "Ocasio-Cortez",
+            "election": 21,
+            "party": "Democratic",
+            "state": "New York",
+            "priority": 8,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/AOC.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Gretchen Whitmer is the Governor of Michigan who could bring some undecideds over the line in that state and region. She is seen as a mainstream Democrat with solid experience. Choosing her would anger some supporters who expect an African-American running-mate after this summer's protests.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 309,
+        "fields": {
+            "first_name": "JD",
+            "last_name": "Vance",
+            "election": 21,
+            "party": "Republican",
+            "state": "Ohio",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/mike-pence-2020.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Mike Pence has served as your Vice President for the past four years, sticking to all of your talking points and staying out of the limelight. Most feel he should be rewarded for this loyalty with another turn on the top of the ticket. He also helps shore up your support with social conservatives.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 311,
+        "fields": {
+            "first_name": "Various",
+            "last_name": "Others",
+            "election": 21,
+            "party": "rightie",
+            "state": "huh",
+            "priority": 12,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 312,
+        "fields": {
+            "first_name": "Various",
+            "last_name": "Others",
+            "election": 21,
+            "party": "lefties",
+            "state": "huh",
+            "priority": 13,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 200,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 304
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 201,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 305
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 202,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 306
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 203,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 307
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 205,
+        "fields": {
+            "candidate": 301,
+            "running_mate": 309
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 207,
+        "fields": {
+            "candidate": 302,
+            "running_mate": 311
+        }
+    }
+]
+
+campaignTrail_temp.credits = "goose"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301,
+            302,
+            303,
+            312
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301,
+            302,
+            303,
+            312
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 21,
+        "year": 2020,
+        "is_premium": 0,
+        "display_year": "2024 - Overtime"
+    }
+]
+
+jet_data = {
+    "headerColor": "#f43e63",
+    "windowColor": "#10003d",
+    "containerColor": "#404040",
+    "innerWindowColor": "#ffffff",
+    "bannerImageUrl": "https://file.garden/aPF6sdg4jk-629YB/Warren%20Banner.jpeg",
+    "backgroundImageUrl": "https://roamingboston.com/wp-content/uploads/2022/07/Fan-Pier-Park-Seaport.jpg",
+    "endingTextColor": "#ffffff",
+    "customQuote": "",
+    "gameTitle": "THE WARREN TRAIL"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE WARREN TRAIL</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#f43e63";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#10003d";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#404040";
+
+$("#game_window")[0].style.backgroundImage = "url(https://file.garden/aPF6sdg4jk-629YB/White%20House%20Background%202.jpg)"
+
+document.getElementById("header").src = "https://file.garden/aPF6sdg4jk-629YB/Warren%20Banner.jpeg";
+
+document.body.background = "https://roamingboston.com/wp-content/uploads/2022/07/Fan-Pier-Park-Seaport.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#ffffff!important;}</style>";
+
+//#endcode
+// Music Player
+  // Select the node that will be observed for mutations
+  const windowsAdvisorTargetNode = document.getElementById("game_window");
+  
+  // Options for the observer (which mutations to observe)
+  const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+  
+  // Callback function to execute when mutations are observed
+  const callback = (mutationList, observer) => {
+      visitWindow = document.getElementsByClassName("overlay_window")[0];
+  
+      if(visitWindow == null || visitWindow.classList.contains("done")) {
+          return;
+      }
+      visitWindow.classList.add("done");
+      visitWindow.classList.add("window");
+      let titleBar = visitWindow.querySelector("h3");
+      titleBar.classList.add("title-bar");
+      titleBar.classList.add("title-bar-text")
+      titleBar.style.paddingLeft = "3px";
+  };
+  
+  class Song {
+    constructor(title, artist, coverLink, audioLink) {
+      this.title = title;
+      this.artist = artist;
+      this.coverLink = coverLink;
+      this.audioLink = audioLink;
+    }
+    getTitle() {
+      return this.title;
+    }
+  
+    getArtist() {
+      return this.artist;
+    }
+  
+    getCoverLink() {
+      return this.coverLink;
+    }
+  
+    getAudioLink() {
+      return this.audioLink;
+    }
+  }
+  
+  class Playlist {
+    constructor() {
+      this.songs = [];
+      this.currentSongIndex = 0;
+    }
+  
+    addSong(song) {
+      this.songs.push(song);
+    }
+  
+    getCurrentSong() {
+      return this.songs[this.currentSongIndex];
+    }
+  
+    playNext() {
+      this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+  
+    playPrevious() {
+      this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+  }
+  window.Playlist=Playlist
+  window.Song=Song
+  
+  function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  }
+  window.changePlaylist=changePlaylist
+  
+  function updateUI(playlist) {
+      const currentSong = playlist.getCurrentSong();
+      var player = document.getElementById("player");
+      player.querySelector("#cover").src = currentSong.getCoverLink();
+      player.querySelector("#title").textContent = currentSong.getTitle();
+      player.querySelector("#artist").textContent = currentSong.getArtist();
+  }
+  
+  window.updateUI=updateUI
+  
+  
+  function setupMusicPlayer() {
+    playlist = new Playlist();
+  
+  
+    const song1 = new Song(
+      "The Revolution Starts Now",
+      "Steve Earle",
+      "https://i.imgur.com/e7fSh3P.png",
+      "https://file.garden/Z-8vn6l_RynAMnyS/2016%20Class%20War/The%20Revolution%20Starts%20Now.mp3"
+    );
+    
+    const song2 = new Song(
+      "Uprising",
+      "Muse",
+      "https://i.imgur.com/yJTZ5yv.png",
+      "https://file.garden/Z-8vn6l_RynAMnyS/2016%20Class%20War/Muse%20-%20Uprising%20%5BOfficial%20Video%5D.mp3"
+    );
+  
+    const song3 = new Song(
+      "A New Wave",
+      "Sleater-Kinney",
+      "https://i.imgur.com/pgRJfeJ.png",
+      "https://file.garden/Z-8vn6l_RynAMnyS/2016%20Class%20War/Sleater-Kinney%20-%20A%20New%20Wave%20%5BOFFICIAL%20VIDEO%5D.mp3"
+    );
+  
+    const song4 = new Song(
+      "Another Level",
+      "Oh the Larceny",
+      "https://i.imgur.com/lD7FZLG.png",
+      "https://file.garden/Z-8vn6l_RynAMnyS/2016%20Class%20War/Oh%20The%20Larceny%20-%20Another%20Level%20(Official%20Audio)%20%5BMusic%20used%20by%20DudePerfect%5D.mp3"
+    );
+  
+    const song5 = new Song(
+      "Make a Change",
+      "Buckwheat Zydeco",
+      "https://i.imgur.com/u2kybud.png",
+      "https://file.garden/Z-8vn6l_RynAMnyS/2016%20Class%20War/Make%20A%20Change.mp3"
+    );
+  
+    const song6 = new Song(
+      "Centuries",
+      "Fall Out Boy",
+      "https://i.imgur.com/G1lVFIm.png",
+      "https://file.garden/Z-8vn6l_RynAMnyS/2016%20Class%20War/Fall%20Out%20Boy%20-%20Centuries%20(Official%20Video).mp3"
+    );
+
+    const song7 = new Song(
+      "Everybody Wants to Rule the World",
+      "Tears for Fears",
+      "https://i.imgur.com/y9RvzFX.png",
+      "https://file.garden/Z-8vn6l_RynAMnyS/2016%20Class%20War/Tears%20For%20Fears%20-%20Everybody%20Wants%20To%20Rule%20The%20World%20-%20ORIGINAL%20VIDEO.mp3"
+    );
+
+    playlist.addSong(song1);
+    playlist.addSong(song2);
+    playlist.addSong(song3);
+    playlist.addSong(song4);
+    playlist.addSong(song5);
+    playlist.addSong(song6);
+    playlist.addSong(song7);
+  
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+  
+   const displayBox = document.createElement("div");
+  displayBox.id = "display-box";
+  
+  const coverElement = document.createElement("img");
+  coverElement.id = "cover";
+  displayBox.appendChild(coverElement);
+  
+  const infoContainer = document.createElement("div");
+  infoContainer.id = "info-container";
+  infoContainer.style.backgroundImage = "url('https://i.imgur.com/FlbueNE.png')";
+  infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
+  infoContainer.style.color = "white"; // Set text color to white
+  
+  const songInfo = document.createElement("div");
+  songInfo.id = "song-info";
+  
+  const titleElement = document.createElement("h3");
+  titleElement.id = "title";
+  titleElement.style.fontWeight = 'large'; // Make it normal as per previous request
+  songInfo.appendChild(titleElement);
+  
+  const artistElement = document.createElement("p");
+  artistElement.id = "artist";
+  songInfo.appendChild(artistElement);
+  
+  infoContainer.appendChild(songInfo);
+  displayBox.appendChild(infoContainer);
+  
+  playerContainer.appendChild(displayBox);
+  
+  const controlsContainer = document.createElement("div");
+  controlsContainer.id = "controls-container";
+  
+  const controls = document.createElement("div");
+  controls.id = "controls";
+  
+  const prevButton = document.createElement("img");
+  prevButton.id = "prevButton";
+  prevButton.src = "https://i.imgur.com/imIqTEA.png";
+  prevButton.alt = "Previous";
+  controls.appendChild(prevButton);
+  
+  const playPauseButton = document.createElement("img");
+  playPauseButton.id = "playPauseButton";
+  playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the default play image
+  playPauseButton.alt = "Play/Pause";
+  controls.appendChild(playPauseButton);
+  
+  const nextButton = document.createElement("img");
+  nextButton.id = "nextButton";
+  nextButton.src = "https://i.imgur.com/7TtaN04.png";
+  nextButton.alt = "Next";
+  controls.appendChild(nextButton);
+  
+  controlsContainer.appendChild(controls);
+  
+  playPauseButton.addEventListener("click", function () {
+    const audio = document.getElementById("audio");
+    if (audio.paused) {
+      audio.play();
+      playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the pause image
+    } else {
+      audio.pause();
+      playPauseButton.src = "https://i.imgur.com/ttdoyfG.png"; // Set the play image
+    }
+  });
+  
+  nextButton.addEventListener("click", function () {
+    playlist.playNext();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+  prevButton.addEventListener("click", function () {
+    playlist.playPrevious();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+    const progressBarContainer = document.createElement("div");
+    progressBarContainer.id = "progress-bar-container";
+  
+    const progressBar = document.createElement("progress");
+    progressBar.type = "range";
+    progressBar.id = "progress-bar";
+    progressBar.value = "0";
+    progressBar.max = "100";
+  
+  
+    progressBarContainer.appendChild(progressBar);
+    controlsContainer.appendChild(progressBarContainer);
+    playerContainer.appendChild(controlsContainer);
+  
+   const volumeContainer = document.createElement("div");
+    volumeContainer.id = "volume-container";
+  
+  const volumeLabel = document.createElement("img");
+  volumeLabel.src = "https://i.imgur.com/0BJYsXt.png";
+  volumeLabel.alt = "Volume";
+  volumeContainer.appendChild(volumeLabel);
+  
+    const volumeSliderContainer = document.createElement("div");
+    volumeSliderContainer.classList.add("is-vertical");
+    volumeSliderContainer.style.marginLeft = "23%";
+    volumeSliderContainer.style.height = "126px";
+  
+    const volumeSlider = document.createElement("input");
+    volumeSlider.type = "range";
+    volumeSlider.id = "volumeSlider";
+    volumeSlider.min = 0;
+    volumeSlider.max = 9;
+    volumeSlider.step = 1;
+    volumeSlider.value = 1; // Initial volume
+  
+    volumeSliderContainer.appendChild(volumeSlider);
+  
+    const volumeDisplay = document.createElement("span");
+    volumeDisplay.id = "volume-display";
+    volumeDisplay.style.fontWeight = 'bold'; 
+    volumeDisplay.style.display = 'none';
+    volumeDisplay.textContent = "1";
+  
+    volumeContainer.appendChild(volumeSliderContainer);
+    volumeContainer.appendChild(volumeDisplay);
+  
+    playerContainer.appendChild(volumeContainer);
+  
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+  
+  
+    function updateProgressBar() {
+      const audio = document.getElementById("audio");
+      const progress = (audio.currentTime / audio.duration) * 100;
+      try{progressBar.value = progress}
+    catch{}
+    }
+  
+   
+    progressBar.addEventListener("input", function () {
+      const audio = document.getElementById("audio");
+      const seekTime = (progressBar.value / 100) * audio.duration;
+      audio.currentTime = seekTime;
+    });
+  
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.volume = 1/9;
+  
+    audio.addEventListener("timeupdate", updateProgressBar);
+    audio.addEventListener("ended", function () {
+      // Play the next song when the current song ends
+      playlist.playNext();
+      updateUI(playlist);
+      audio.src = playlist.getCurrentSong().audioLink;
+      audio.play();
+    });
+  
+      let currentVolume = 1; // Initial volume
+  
+    volumeSlider.addEventListener("input", function () {
+      currentVolume = parseInt(volumeSlider.value, 10);
+      updateVolumeDisplay();
+      updateAudioVolume();
+    });
+  
+    function updateVolumeDisplay() {
+      volumeDisplay.textContent = currentVolume;
+    }
+  
+     function updateAudioVolume() {
+      const audio = document.getElementById("audio");
+      audio.volume = currentVolume / 9; // Set volume between 0 and 1
+    }
+  
+    document.body.appendChild(audio);
+    audio.play();
+  
+    // Update the UI when the page loads
+    updateUI(playlist);
+  }
+  
+  const style = document.createElement("style");
+  style.textContent = `
+  #player {
+      border: 3px solid #C9C9C9; /* Add your desired border style */
+      display: flex;
+      flex-direction: row;
+    height:191px;
+      background-Image: url("https://itsastronomical.com/assets/music/blackbar.png");
+    }
+  
+    #display-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+  
+    #cover {
+      width: 176px;
+    height:176px;
+    }
+  
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height:178px;
+    width:127px;
+    margin-top: 3px;
+    }
+  
+    #song-info {
+      width: 100%;
+    padding:5px;
+    }
+  
+    #controls-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      width:100%;
+    padding-top:15px;
+  
+    }
+.is-vertical #volumeSlider {
+  width: 16px;
+  height: 100%;
+  writing-mode: vertical-rl;
+  direction: rtl;
+}
+  
+    #controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 80%;
+    }
+  
+    #progress-bar-container {
+      width: 100%;
+    }
+  
+    #progress-bar {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      margin-Top: 20px;
+    }
+    
+  `;
+
+document.head.appendChild(style);
+
+const gameWindow_player = document.getElementById("game_window");
+//use this function directly or put it in an event listener to start the music on the press of a certain button
+setupMusicPlayer();
