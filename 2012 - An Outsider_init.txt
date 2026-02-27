@@ -1,0 +1,753 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 3,
+        "fields": {
+            "year": 2012,
+            "summary": "<p>While the upper echelons of America are content with their leader, President Jeb Bush, the rest of the nation, those who have cried out and been denied righteous justice, demand payback. They have searched for a true working-class hero, and have found many such heroes along the way; McGovern, Jesse Jackson, Wesley Clark, and the like. None of them have succeeded in saving America. The deep state has gutted programs meant to help the poor, all the while the media never criticizes them.</p>\n<P>One man, Donald J. Trump, has had enough. He's seen America ruined by conservative policy, and has seen the Bush family steal elections; 2000? Rigged. Jeb stole the election for his brother George, and when that moron lost to Wesley Clark in 2004, Jeb ran in 2008 and stole the election. Trump knows only one thing: He must take America back.",
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/An%20Outsider%20Election%20Image.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/carville-rove.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Political News and Analysis</h4> <a href=\"http://www.realclearpolitics.com/\" target=\"_blank\">Real Clear Politics</a> -- <a href=\"http://www.theatlantic.com/\" target=\"_blank\">The Atlantic</a> -- <a href=\"http://www.politico.com/\" target=\"_blank\">Politico</a> -- <a href=\"http://www.huffingtonpost.com/\" target=\"_blank\">Huffington Post</a> -- <a href=\"http://www.foxnews.com/politics/index.html\" target=\"_blank\">Fox News Politics</a> <h4>Books by the Candidates</h4>Barack Obama - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1400082773/amhius20-20\" target=\"_blank\">Dreams from My Father: A Story of Race and Inheritance</a><br>Barack Obama - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0307455874/amhius20-20\" target=\"_blank\">The Audacity of Hope: Thoughts on Reclaiming the American Dream (Vintage)</a><br> Mitt Romney - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0312671733/amhius20-20\" target=\"_blank\">No Apology: Believe in America</a><br> Gary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a><h4>Politics in 2012</h4> Edward Klein - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1596987855/amhius20-20\" target=\"_blank\">The Amateur</a><br>Michael Kranish & Scott Helman - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0062123289/amhius20-20\" target=\"_blank\">The Real Romney</a><br>Lawrence Lessig - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0446576433/amhius20-20\" target=\"_blank\">Republic, Lost: How Money Corrupts Congress--and a Plan to Stop It</a><br>Ron Suskind - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0061429252/amhius20-20\" target=\"_blank\">Confidence Men: Wall Street, Washington, and the Education of a President</a><h4>The Financial Crisis</h4> Johan Norberg - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1935308130/amhius20-20\" target=\"_blank\">Financial Fiasco: How America's Infatuation with Home Ownership and Easy Money Created the Economic Crisis</a><br>John Bellamy Foster & Fred Magdoff - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1583671846/amhius20-20\" target=\"_blank\">The Great Financial Crisis: Causes and Consequences</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2012 - An Outsider"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 16,
+        "fields": {
+            "first_name": "Donald",
+            "last_name": "Trump",
+            "election": 3,
+            "party": "Democratic",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Donald J. Trump is not a politician. He is no creature of the swamp, he is man who has had enough.</P>\n<p>First, he witnessed George W. Bush and his brother steal the 2000 election. When Wesley K. Clark, one of the best damn generals there ever was, defeated George W. Bush in 2004, it seemed like American had finally found it's hero. But alas, Icarus flew too close to the sun, and thus the deep state sent it's strongest warrior: Jeb Bush. He followed his brother's footsteps in the election of 2008, and won the electoral college while losing the popular vote.</p>\n<p>The establishment hates him. Well, fuck them. Trump doesn't care about that. He knows that this election will decide America's destiny. Before that, however, Donald needs to win the Democratic primary, and shills like Clinton will throw whatever they have at him. Trump can't lose, for if he does; America is gone. Forever.</p>",
+            "color_hex": "#00006b",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/Trump%20Code%201.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2012 election.</h3><p>In spite of a hard-fought challenge from Mitt Romney, you have held on to the Presidency.</p><p>On the political front, it appears that your health care legislation that was passed in early 2010 will survive and go into effect. While the economy has not yet recovered as strongly as you hoped and promised, you will now have four more years to leave a strong legacy to your Democratic successor.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2012 election.</h3><p>In spite of your spirited defense, Mitt Romney has won the Presidency. Nearly two centuries after the ill-fated campaign of Joseph Smith, Romney will become America's first Mormon president.</p><p>On the political front, it appears that Romney will make a push for more tax cuts to revive the economy. He will also try to repeal your health care law. If your defeat was narrow enough, you may be able to attempt a comeback in 2016.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Unfortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for Mitt Romney.</p><p>Given the incredibly close nature of the election, you can probably set your sights on a political comeback in 2016, if that is what you desire.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 17,
+        "fields": {
+            "first_name": "Jeb",
+            "last_name": "Bush",
+            "election": 3,
+            "party": "Republican",
+            "state": "Florida",
+            "priority": 2,
+            "description": "<p>Mitt Romney enters the 2012 campaign as the Republican challenger. He has a record of public service as the former Governor of Massachusetts and he also headed Bain Capital for many years. He is generally perceived as a pro-business moderate and a competent manager.</p><p>Due to Romney's evolving positions on health care and social issues over the years, some conservatives question his sincerity. His challenge is to win that faction without alienating mainstream voters.",
+            "color_hex": "#c33232",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/mitt-romney-2012.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2012 election.</h3><p>In spite of a hard-fought campaign from Barack Obama, you have won the Presidency. Nearly two centuries after the ill-fated campaign of Joseph Smith, you will become America's first Mormon president. Your next steps are to select a cabinet and  prepare a rousing inauguration speech. On the political front, you may have the support needed to overturn Obamacare. Or you could focus on tax cuts, or other policies entirely.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2012 election.</h3><p>In spite of your best efforts, Barack Obama has been reelected to a second term as President.</p><p>On the political front, it appears that Obamacare will survive and go into effect. While the economy has not recovered as strongly as Obama hoped and promised, he will now have four more years to leave a strong legacy to his Democratic successor. No doubt the Republicans will learn from your failure and come back stronger in 2016.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won a true nail-biter.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for you accordingly.</p><p>The important thing is that you won. Go about implementing your agenda accordingly, and pay no attention to Democrats and pundits who call for 'compromise' and 'conciliation'.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 0.8,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 36,
+        "fields": {
+            "first_name": "Ron",
+            "last_name": "Paul",
+            "election": 3,
+            "party": "Independent",
+            "state": "Texas",
+            "priority": 3,
+            "description": "<p>ALTERNATE SCENARIO</p><p>After failing to secure the Republican nomination, Ron Paul strikes out as an independent candidate. While it will be a tall order for him to win this election, he hopes to expand his political network and prove the viability of a similar candidate in 2016. His supporters, for their part, now have their biggest stage from which to educate the American public on the fiscal and constitutional issues that Ron Paul holds most dear.</p>",
+            "color_hex": "#ffae00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/ron-paul-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": null,
+            "candidate_score": 0.1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 18,
+        "fields": {
+            "first_name": "Gary",
+            "last_name": "Johnson",
+            "election": 3,
+            "party": "Libertarian",
+            "state": "New Mexico",
+            "priority": 3,
+            "description": "<p>While his Libertarian views make him non-competitive in 2012, Gary Johnson hopes to use the election as a springboard for his party and ideology. The success of Ron Paul in the Republican primaries suggests a potential market for Johnson's views, but he realistically will be fortunate to win more than 2% of the popular vote.</p>",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/gary-johnson-2012.jpg",
+            "electoral_victory_message": "<h3>It's a miracle! You have won the 2012 election.</h3> <p>Gary Johnson? Even the people who voted for you can't believe you won.</p> <p>You are the first third-party candidate to ever win the Presidency. Now go enact that Libertarian agenda!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2012 election.</h3> <p>But what did you expect? Your main goal was to get the Libertarian agenda out there and hope for a miracle.  The miracle never came.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2012 election.</h3> <p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. However, this  was entirely irrelevant to your chances as a third-party candidate.</p> <p>Better luck next time.</p>",
+            "description_as_running_mate": "<p>After his own failed run for the Republican nomination, Gary Johnson has the inside track on the Libertarian nomination. He also has proven experience as New Mexico's Governor.</p><p>By selecting Johnson, Ron Paul could avoid the splintering of his support to the Libertarian Party. He could also make an appeal to the socially liberal segment of the small government movement, insofar as Johnson is known to be pro-choice and independent of the religious right.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 19,
+        "fields": {
+            "first_name": "Ralph",
+            "last_name": "Nader",
+            "election": 3,
+            "party": "Green",
+            "state": "Massachusetts",
+            "priority": 4,
+            "description": "<p>Stein will most likely feature as a footnote in the 2012 election, though she could draw support from Obama if he veers too close to the political center.</p>",
+            "color_hex": "#008500",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": null,
+            "electoral_victory_message": "<h3>Wow! You have won the election.</h3><p>This has to rank as one of the biggest upsets in political history. Prepare to implement your radically progressive agenda in the United States of America!</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost.</h3><p>This was about what everyone expected. Good job. Good effort.</p>",
+            "no_electoral_majority_message": "<h3>Sorry, you have lost.</h3><p>This was about what everyone expected. Good job. Good effort.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 30,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Edwards",
+            "election": 3,
+            "party": "Democratic",
+            "state": "North Carolina",
+            "priority": 7,
+            "description": "<p>V.P. </p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/Edwards%20Code%201.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>John Edwards knows how you feel. He has also made it his life's goal to fight back against the deep state, the rot in Washington. The North Carolinian senator put up a good fight in the 2004 Democratic primaries, although he ended up losing to Wesley Clark.  He's kept a low profile since then, with the only notable thing about him in recent years being his wife's passing.</p>\n<p>Well, if you pick John, he'll fight like hell to get you elected. He's a true believer, as he supports most of your policies, including his stand against NAFTA. John, however, may have some skeletons in the closet, he's been going out with different women after his wife's death, nothing illegal, nothing scandalous on its face, but close enough in time that the lying media may contort the truth and make things seem worse.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 31,
+        "fields": {
+            "first_name": "Tom",
+            "last_name": "Ridge",
+            "election": 3,
+            "party": "Republican",
+            "state": "Wisconsin",
+            "priority": 8,
+            "description": "<p>V.P.</p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/paul-ryan-2012.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Paul Ryan has gained national attention with his work on the federal budget as a Congressman from Wisconsin. His advocacy for deficit reduction appeals to a wide range of moderate conservatives, and his home state of Wisconsin promises to be a close call on election night.</p><p>On the other hand, Ryan has only served as a Congressman and has little experience running in a national or even a statewide election.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 34,
+        "fields": {
+            "first_name": "Barack",
+            "last_name": "Obama",
+            "election": 3,
+            "party": "Democratic",
+            "state": "Illinois",
+            "priority": 11,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/Obama%20yeahhh.jpeg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>As one of your opponents in the primary, Barack Obama is clearly not like you. He doesn't act like you. He's more restrained, calm. He doesn't think of vengeance whenever he hears the name \"Bush\". Barack simply wants to move on from the past, and implement change. </P>\n\n<p>You know that's not how this game works. Barack is an idealist, but what he tapped into was real. He simply says the truth eloquently, carefully said to not upset the deep state. You don't act like that. Who gives a fuck if the big CEOs and the establishment are pissed? Barack is many things. He's safe, way more safer than you. Barack is a mass of contradictions. He's a progressive liberal, he's a little big man, but there's one thing that he truly is. An agent of change. Whenever he speaks, people listen.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 39,
+        "fields": {
+            "first_name": "Pat",
+            "last_name": "Buchanan",
+            "election": 3,
+            "party": "Republican",
+            "state": "Pennsylvania",
+            "priority": 14,
+            "description": "n/a",
+            "color_hex": "#290000",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": null,
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": null,
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 8,
+        "fields": {
+            "candidate": 19,
+            "running_mate": 39
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 1,
+        "fields": {
+            "candidate": 16,
+            "running_mate": 30
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 3,
+        "fields": {
+            "candidate": 17,
+            "running_mate": 31
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 18,
+        "fields": {
+            "candidate": 36,
+            "running_mate": 18
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 2,
+        "fields": {
+            "candidate": 16,
+            "running_mate": 34
+        }
+    }
+]
+
+campaignTrail_temp.credits = "goosey"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 3,
+        "candidates": [
+            16,
+            17,
+            36,
+            19
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 3,
+        "candidates": [
+            16,
+            17,
+            36,
+            19
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 3,
+        "year": 2012,
+        "is_premium": 0,
+        "display_year": "2012 - An Outsider"
+    }
+]
+
+jet_data = {
+    "headerColor": "#214580",
+    "windowColor": "#00568f",
+    "containerColor": "#35526e",
+    "innerWindowColor": "#406987",
+    "bannerImageUrl": "https://file.garden/aPF6sdg4jk-629YB/Screenshot%202026-01-10%20171012.png",
+    "backgroundImageUrl": "https://excursionmania.com/uploads/regions/region/Washington_DC_cover1.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#214580";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#00568f";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#35526e";
+
+document.getElementById("header").src = "https://file.garden/aPF6sdg4jk-629YB/Screenshot%202026-01-10%20171012.png";
+
+document.body.background = "https://excursionmania.com/uploads/regions/region/Washington_DC_cover1.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#406987!important;}</style>";
+
+//#endcode
+
+function applyGlobalStyles(css, id) {
+    if (document.getElementById(id)) return;
+    const style = document.createElement("style");
+    style.id = id;
+    style.textContent = css;
+    document.head.appendChild(style);
+}
+
+// the music player
+class Song {
+    constructor(title, artist, genre, coverLink, audioLink) {
+        this.title = title;
+        this.artist = artist;
+        this.genre = genre;
+        this.coverLink = coverLink;
+        this.audioLink = audioLink;
+    }
+}
+
+class Playlist {
+    constructor() {
+        this.songs = [];
+        this.currentSongIndex = 0;
+    }
+
+    addSong(song) {
+        this.songs.push(song);
+    }
+
+    getCurrentSong() {
+        return this.songs[this.currentSongIndex];
+    }
+
+    playNext() {
+        this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+
+    playPrevious() {
+        this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+}
+window.Playlist = Playlist
+window.Song = Song
+
+let playlist;
+
+function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    const audio = document.getElementById("audio");
+    const uiElements = {
+        cover: document.getElementById("cover"),
+        title: document.getElementById("title"),
+        artist: document.getElementById("artist"),
+        genre: document.getElementById("genre"),
+        playPauseButton: document.getElementById("playPauseButton")
+    };
+    playSong(audio, uiElements);
+}
+window.changePlaylist = changePlaylist
+
+//  function to update the UI
+function updateUI(song, uiElements) {
+    uiElements.cover.src = song.coverLink;
+    uiElements.title.textContent = song.title;
+    uiElements.artist.textContent = song.artist;
+    uiElements.genre.textContent = song.genre;
+}
+
+// function to play a song
+function playSong(audio, uiElements) {
+    const currentSong = playlist.getCurrentSong();
+    updateUI(currentSong, uiElements);
+    audio.src = currentSong.audioLink;
+    audio.play();
+    uiElements.playPauseButton.src = "https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/qLb9UqQ.png";
+}
+
+function setupMusicPlayer() {
+    const songData = [
+        { title: "Americano", artist: "Lady Gaga", genre: "Techno", cover: "https://upload.wikimedia.org/wikipedia/en/c/c3/Born_This_Way_album_cover.png", audio: "https://audio.jukehost.co.uk/Ysso1fBpU00LDghYdu21dIgx2iIjuD52" },
+        { title: "Misery", artist: "Maroon 5", genre: "Pop Rock", cover: "https://upload.wikimedia.org/wikipedia/en/6/6a/Misery-maroon_5.jpg", audio: "https://audio.jukehost.co.uk/P9xrAYtB2hplQTzdfGnoVBUSA7VAaZQf" },
+        { title: "Tik Tok", artist: "Kesha", genre: "Pop", cover: "https://upload.wikimedia.org/wikipedia/en/8/8d/AnimalKesha.jpg", audio: "https://audio.jukehost.co.uk/hjdblttLu2egluSHghoDjxLIjSxs1nRT" },
+        { title: "Baby", artist: "Justin Bieber (ft. Ludacris)", genre: "Pop", cover: "https://upload.wikimedia.org/wikipedia/en/d/d1/Babycoverart.jpg", audio: "https://audio.jukehost.co.uk/bkGFBAx95bNDrsJYNoa92UJCQl49gYLx" },
+        { title: "American Boy", artist: "Estelle (ft. Kanye West)", genre: "Hip Hop", cover: "https://upload.wikimedia.org/wikipedia/en/0/0d/American_Boy_UK_Cover.jpg", audio: "https://audio.jukehost.co.uk/y7mET29FtVOBYQt8RRFLgYsE6viSRtBV" },
+        { title: "Can’t Stop Partying", artist: "Weezer (ft. Lil Wayne)", genre: "Power Pop", cover: "https://upload.wikimedia.org/wikipedia/en/0/0c/Weezer_-_Raditude.png", audio: "https://audio.jukehost.co.uk/GXO26SHGOonMhuMbJhkhJzRuluHbmxK2" },
+        { title: "Love The Way You Lie", artist: "Eminem (ft. Rihanna)", genre: "Hip Hop", cover: "https://upload.wikimedia.org/wikipedia/en/e/ed/Love_the_Way_You_Lie_cover.png", audio: "https://audio.jukehost.co.uk/PK3pUQ0bcyoVhV8WQWIAfeJI7RjbwGsd" }
+    ];
+
+    playlist = new Playlist();
+    songData.forEach(s => playlist.addSong(new Song(s.title, s.artist, s.genre, s.cover, s.audio)));
+	
+	window.defaultPlaylist = playlist;
+
+    function addAndPlaySong(song) {
+        const audio = document.getElementById("audio");
+        const uiElements = {
+            cover: document.getElementById("cover"),
+            title: document.getElementById("title"),
+            artist: document.getElementById("artist"),
+            genre: document.getElementById("genre"),
+            playPauseButton: document.getElementById("playPauseButton")
+        };
+
+        playlist.addSong(song);
+        playlist.currentSongIndex = playlist.songs.length - 1;
+
+        playSong(audio, uiElements);
+    }
+    window.addAndPlaySong = addAndPlaySong;
+
+    // build the player structure
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+    playerContainer.innerHTML = `
+			<img id="cover" />
+			<div id="rightPanel">
+				<div id="info-container">
+					<div id="song-info">
+						<h3 id="title"></h3>
+						<p id="artist"></p>
+						<p id="genre"></p>
+					</div>
+				</div>
+				<div id="controls-container">
+					<div id="progress-bar-container">
+						<div id="progress"></div>
+					</div>
+					<div id="bottom-controls">
+						<div id="controls">
+							<img id="prevButton" src="https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/tbB2NMq.png" alt="Previous">
+							<img id="playPauseButton" src="https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/gZME5QC.png" alt="Play/Pause">
+							<img id="nextButton" src="https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/e69GXWV.png" alt="Next">
+						</div>
+						<div id="volume-container">
+							<img src="https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/fvct8dN.png" alt="Volume">
+							<input type="range" id="volumeSlider" min="0" max="9" step="1" value="2">
+						</div>
+					</div>
+				</div>
+			</div>
+		`;
+
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+
+    // cache all DOM elements
+    const uiElements = {
+        cover: document.getElementById("cover"),
+        title: document.getElementById("title"),
+        artist: document.getElementById("artist"),
+        genre: document.getElementById("genre"),
+        prevButton: document.getElementById("prevButton"),
+        playPauseButton: document.getElementById("playPauseButton"),
+        nextButton: document.getElementById("nextButton"),
+        progressBar: document.getElementById("progress"),
+        progressBarContainer: document.getElementById("progress-bar-container"),
+        volumeSlider: document.getElementById("volumeSlider")
+    };
+
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.volume = uiElements.volumeSlider.value / 9;
+
+    // setup event listeners
+    uiElements.playPauseButton.addEventListener("click", () => {
+        if (audio.paused) {
+            audio.play();
+            uiElements.playPauseButton.src = "https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/qLb9UqQ.png";
+        } else {
+            audio.pause();
+            uiElements.playPauseButton.src = "https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/gZME5QC.png";
+        }
+    });
+
+    uiElements.nextButton.addEventListener("click", () => {
+        playlist.playNext();
+        playSong(audio, uiElements);
+    });
+
+    uiElements.prevButton.addEventListener("click", () => {
+        playlist.playPrevious();
+        playSong(audio, uiElements);
+    });
+
+    audio.addEventListener("timeupdate", () => {
+        if (audio.duration) {
+            const progress = (audio.currentTime / audio.duration) * 100;
+            uiElements.progressBar.style.width = progress + "%";
+        }
+    });
+
+    audio.addEventListener("ended", () => {
+        playlist.playNext();
+        playSong(audio, uiElements);
+    });
+
+    uiElements.progressBarContainer.addEventListener("click", (e) => {
+        const rect = uiElements.progressBarContainer.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const width = uiElements.progressBarContainer.offsetWidth;
+        audio.currentTime = (clickX / width) * audio.duration;
+    });
+
+    uiElements.volumeSlider.addEventListener("input", (e) => {
+        audio.volume = e.target.value / 9;
+    });
+
+    document.body.appendChild(audio);
+
+    // initial load
+    const initialSong = playlist.getCurrentSong();
+    updateUI(initialSong, uiElements);
+    audio.src = initialSong.audioLink;
+
+    audio.play().then(() => {
+        uiElements.playPauseButton.src = "https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/qLb9UqQ.png";
+    }).catch(error => {
+        uiElements.playPauseButton.src = "https://file.garden/aNtAfG887DiA_7lO/Obamanation/Code1/gZME5QC.png";
+        console.log("Audio autoplay was prevented. User must interact with the page first.");
+    });
+}
+
+const musicPlayer = `
+		#player {
+			font-family: 'Segoe UI', sans-serif;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: 15px;
+			padding: 0 10px;
+			height: 191px;
+			background: linear-gradient(to bottom, #1b1b1b, #141414);
+			border-radius: 5px;
+			border: 1px solid #ffffff;
+			box-shadow: 0 0 10px rgba(0, 97, 241, 0.5);
+			color: white;
+			overflow: hidden;
+		}
+
+		#cover {
+			width: 180px;
+			height: 180px;
+			border: 2px solid #fff;
+			box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+			flex-shrink: 0;
+		}
+
+		#rightPanel {
+			display: flex;
+			flex-direction: column;
+			flex-grow: 1;
+			min-width: 0;
+		}
+
+		#info-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			flex-grow: 1;
+			padding-left: 5px;
+		}
+
+		#song-info #title {
+			font-size: 1.5em;
+			font-weight: 600;
+			margin: 0 0 5px 0;
+			color: #ffffff;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		#song-info #artist, #song-info #genre {
+			font-size: 1em;
+			margin: 0;
+			color: #dbd8d8;
+		}
+
+		#controls-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			background-color: rgba(0, 0, 0, 0.25);
+			margin-top: .5em;
+			padding: 8px;
+			border-radius: 4px;
+		}
+		
+		#bottom-controls {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+		}
+
+		#controls {
+			display: flex;
+			align-items: center;
+			gap: 15px;
+		}
+		
+		#controls img {
+			cursor: pointer;
+			opacity: 0.9;
+			transition: opacity 0.2s;
+		}
+		
+		#prevButton, #nextButton {
+			height: 36px;
+		}
+
+		#controls img:hover {
+			opacity: 1;
+		}
+
+		#progress-bar-container {
+			width: 100%;
+			height: 6px;
+			background-color: #acacac;
+			border-radius: 3px;
+			cursor: pointer;
+			margin-bottom: 8px;
+		}
+
+		#progress {
+			height: 100%;
+			width: 0%;
+			background-color: #00e1ff;
+			border-radius: 3px;
+		}
+		
+		#volume-container {
+			display: flex;
+			align-items: center;
+			gap: 8px;
+		}
+		
+		#volumeSlider {
+			-webkit-appearance: none;
+			appearance: none;
+			width: 100px;
+			height: 4px;
+			outline: none;
+			border-radius: 2px;
+			opacity: 0.8;
+			transition: opacity .2s;
+			margin: 0 .25em 0 0; 
+		}
+		
+		#volumeSlider:hover {
+			opacity: 1;
+		}
+
+		#volumeSlider::-webkit-slider-thumb {
+			-webkit-appearance: none;
+			appearance: none;
+			width: 14px;
+			height: 14px;
+			background: #ffffff;
+			cursor: pointer;
+			border-radius: 50%;
+			border: 1px solid #777;
+			margin-top: 2px;
+			position: relative;
+			z-index: 2;
+		}
+
+		#volumeSlider::-moz-range-thumb {
+			width: 14px;
+			height: 14px;
+			background: #ffffff;
+			cursor: pointer;
+			border-radius: 50%;
+			border: 1px solid #777;
+		}
+
+		/* fix for Firefox track height to match webkit */
+		#volumeSlider::-moz-range-track {
+			height: 4px;
+			background: #ffffff;
+			border-radius: 2px;
+		}
+	`;
+
+applyGlobalStyles(musicPlayer, 'music-player');
+
+const gameWindow_player = document.getElementById("game_window");
+setupMusicPlayer();

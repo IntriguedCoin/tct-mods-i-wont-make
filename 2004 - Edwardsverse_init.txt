@@ -1,0 +1,934 @@
+campaignTrail_temp.achievements = {
+    "The Next FDR" : {
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stray_kitten_Rambo002.jpg/1200px-Stray_kitten_Rambo002.jpg",
+        "description" : "Win over 400 electoral votes.",
+        "cannotBeCheated" : true       
+    },
+    "Never an honest word" : {
+        "image" : "IMAGE URL HERE",
+        "description" : "Lose everything.",
+        "cannotBeCheated" : true        
+    },
+    "The only boy I'd anything" : {
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stray_kitten_Rambo002.jpg/1200px-Stray_kitten_Rambo002.jpg",
+        "description" : "Appear with Kerry at a rally every single chance you get.",
+        "cannotBeCheated" : true
+    },
+    "Long Live The Revolution" : {
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stray_kitten_Rambo002.jpg/1200px-Stray_kitten_Rambo002.jpg",
+        "description" : "Win even after being radical.",
+        "cannotBeCheated" : true
+    }    
+}
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 9,
+        "fields": {
+            "year": 2000,
+            "summary": "<p>The 2004 presidential election is set to kick into high gear, in the wake of the horrible tragedy that was 9/11, two candidates take the main stage this cycle, and are eager to spread their message on the campaign trail.<p>\n<ul>\n<li>President George  𝐖. Bush seeks re-election and is portraying himself as a wartime president, and as the only person who can keep stability during the War on Terror.</li>\n<li>Senator John Edwards saw a meteoric rise during the Democratic primaries and seeks to oust the incumbent president and bring America into a new progressive era.</li>",
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/ElectionBushEdwards.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/rove-brazile.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2004 - Edwardsverse"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 77,
+        "fields": {
+            "first_name": "George W.",
+            "last_name": "Bush",
+            "election": 9,
+            "party": "Republican",
+            "state": "Texas",
+            "priority": 1,
+            "description": "<p>Can't get fooled again.</p>",
+            "color_hex": "#bd0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/george-w-bush-2000.jpg",
+            "electoral_victory_message": "<p>This guy won!</p>",
+            "electoral_loss_message": "<P>this guy lost!</p>",
+            "no_electoral_majority_message": "<p>we all won?</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Edwards",
+            "election": 9,
+            "party": "Democrat",
+            "state": "North Carolina",
+            "priority": 2,
+            "description": "<p>This is it. The culmination of years in the making. First, John shockingly won the Iowa primaries, much to Kerry and Dean's dismay. Then, he won South Carolina and Nevada, and once Super Tuesday came around... well, it solidified his lead. He is the people's champion, and some view him as the only thing that can save America from the Bush administration.</p>\n<p>With an uphill battle against Bush, John has very little room for mistakes. One small mistake, even the tiniest of missteps, or God forbid, his progressive facade being torn to shreds, can lead to his campaign unraveling and him being left in the dust. John needs to win the presidency and prove that him winning the primary wasn't good luck.\n",
+            "color_hex": "#0505a3",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/Johnnyboy.jpg",
+            "electoral_victory_message": "<p>This guy won!</p>",
+            "electoral_loss_message": "<p>This guy loses!</p>",
+            "no_electoral_majority_message": "<p>we all won?</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 79,
+        "fields": {
+            "first_name": "David",
+            "last_name": "Cobb",
+            "election": 9,
+            "party": "Green",
+            "state": "Texas",
+            "priority": 3,
+            "description": "<p>ralph is out, and i'm in!</p>",
+            "color_hex": "#009900",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/ralph-nader-2000.jpg",
+            "electoral_victory_message": "<p>this guy won!</p>",
+            "electoral_loss_message": "<p>This guy lost!</p>",
+            "no_electoral_majority_message": "<p>Well, this guy loses anyway</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 80,
+        "fields": {
+            "first_name": "Michael",
+            "last_name": "Badnarik",
+            "election": 9,
+            "party": "Libertarian",
+            "state": "Texas",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#ffdd00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 81,
+        "fields": {
+            "first_name": "Dick",
+            "last_name": "Cheney",
+            "election": 9,
+            "party": "Republican",
+            "state": "Wyoming",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/dick-cheney-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>They call me Satan. Maybe they're right.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 85,
+        "fields": {
+            "first_name": "Wesley",
+            "last_name": "Clark",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Arkansas",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/Clarky.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<P>Wesley Clark was one of your rivals in the primaries and could've been the nominee if he had contested the Iowa primaries, although there's no hard feelings, considering you'll need someone who can appeal to voters concerned about national security. While he is opposed to certain aspects of the Iraq war, he's somewhat hawkish, which could really disappoint the base.</p>\n<p>As for other possible advantages, he's quite close with the Clintons, which means if you're willing to betray your public persona as someone who fights for the little guy, the donors are ready to give you big checks. Clark is also from Arkansas, but you sure as hell aren't winning it this year.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 86,
+        "fields": {
+            "first_name": "Tom",
+            "last_name": "Daschle",
+            "election": 9,
+            "party": "Democrat",
+            "state": "South Dakota",
+            "priority": 10,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/DaschleVP.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>What could be better than an establishmentarian about to lose his job? Supposedly nothing, as that's what the few in your team suggesting Daschle seem to think. If there's one thing Daschle could help you with, it's certainly keeping the party united. Plus, you'll certainly need someone experienced on the ticket to avoid attacks on your lack of experience,</p>\n<p>One small issue. Picking Daschle would be a sign to your supporters that you've fallen into line, that you're just another politician who's out of touch with the average American. It's ultimately your choice, you can either save Daschle's career, or have yours end with it as well.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 87,
+        "fields": {
+            "first_name": "Joe",
+            "last_name": "Biden",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Delaware",
+            "priority": 11,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/JoeBidenVP.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>If you want someone who can help you with issues regarding national security, Joe Biden is your guy. Hailing from Scranton, Joe's been in the senate for over 30 years, which will surely help you with concerns regarding your experience. He's also apart of the establishment, and we all know how you feel about the establishment.</p>\n<p>That being said, picking Biden would alienate parts of your progressive supporters due to his vote for the Iraq authorization, which you've recently changed your opinion on. Overall, Biden would be an okay pick if you want to piss off progressives and sell your soul, that is if you haven't already sold it already.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 88,
+        "fields": {
+            "first_name": "Ed",
+            "last_name": "Rendell",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Pennsyvania",
+            "priority": 12,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/evan-bayh-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Evan Bayh is a Senator from Indiana and a former Governor. He is broadly popular in that state and is a leader of the moderate wing of the Democrats. This could help the Democrats compete in the Midwest and South, but it could also alienate the left-wing of the party and drive additional support to Ralph Nader's bid.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 89,
+        "fields": {
+            "first_name": "Pat",
+            "last_name": "LaMarche",
+            "election": 9,
+            "party": "Green",
+            "state": "Minnesota",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/winona-laduke-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>huh</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 90,
+        "fields": {
+            "first_name": "Richard",
+            "last_name": "Campagna",
+            "election": 9,
+            "party": "Libertarian",
+            "state": "New York",
+            "priority": 14,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 57,
+        "fields": {
+            "candidate": 80,
+            "running_mate": 90
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 56,
+        "fields": {
+            "candidate": 79,
+            "running_mate": 89
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 48,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 81
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 52,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 85
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 53,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 86
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 54,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 87
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 55,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 88
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Herb"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 9,
+        "year": 2000,
+        "is_premium": 0,
+        "display_year": "2004 - Edwardsverse"
+    }
+]
+
+jet_data = {
+    "headerColor": "#700016",
+    "windowColor": "#700016",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#c7c7c7",
+    "bannerImageUrl": "PLACEHOLDER",
+    "backgroundImageUrl": "https://i.pinimg.com/736x/d6/fd/c8/d6fdc83f651e1c1460625cd25da61cd0.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "Edwards ’04"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>Edwards ’04</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#700016";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#c5c5c5";
+
+document.getElementById("header").src = "PLACEHOLDER";
+
+document.body.background = "https://i.pinimg.com/736x/d6/fd/c8/d6fdc83f651e1c1460625cd25da61cd0.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#c7c7c7!important;}</style>";
+
+campaignTrail_temp.modBoxTheme = {
+     "header_color": "#8b0909",
+     "header_text_color": "#000000",
+     "description_text_color": "#000000",
+     "description_background_color": "#b4b4b4",
+     "main_color": "#787878",
+     "secondary_color": "#8b0909",
+     "ui_text_color": "#ffffff"
+}
+
+//#endcode
+/* -------------------------------------------------
+   SONG + PLAYLIST
+------------------------------------------------- */
+class Song {
+  constructor(title, artist, coverLink, audioLink) {
+    this.title = title;
+    this.artist = artist;
+    this.coverLink = coverLink;
+    this.audioLink = audioLink;
+  }
+}
+class Playlist {
+  constructor() {
+    this.songs = [];
+    this.index = 0;
+  }
+  add(song){ this.songs.push(song); }
+  current(){ return this.songs[this.index]; }
+  next(){ this.index = (this.index+1)%this.songs.length; }
+  prev(){ this.index = (this.index-1+this.songs.length)%this.songs.length; }
+}
+
+/* -------------------------------------------------
+   SETUP FUNCTION
+------------------------------------------------- */
+function setupMusicPlayer() {
+
+  const playlist = new Playlist();
+  playlist.add(new Song("Little Dark Age","MGMT","https://i.imgur.com/d2ctDiz.png","https://audio.jukehost.co.uk/LQF5RB2PrVcCeObaqQafC2FTwkysnWdT"));
+  playlist.add(new Song("Arrest the President","Ice Cube","https://i.imgur.com/BBOMLln.png","https://audio.jukehost.co.uk/c2cWOAnjSfzh2YI3OhW923cClDn3Iqic"));
+  playlist.add(new Song("This is America","Childish Gambino","https://i.imgur.com/cBtRj9K.png","https://audio.jukehost.co.uk/ZaGEkUEbz72UP4IMnC01mwSxwqX4gen6"));
+  playlist.add(new Song("Troubled Times","Green Day","https://i.imgur.com/unNGqOH.png","https://audio.jukehost.co.uk/CeVuU7lokNQcuzCWWR2cJ6I6qJuSffzT"));
+  playlist.add(new Song("Is This the Life We Really Want","Roger Waters","https://i.imgur.com/3NCgTGN.png","https://audio.jukehost.co.uk/ng58tjZYGQSrNKrGgmH5pFp4wobiaUPe"));
+  playlist.add(new Song("The Kids are Alt-Right","Bad Religion","https://i.imgur.com/KzlAiiO.png","https://audio.jukehost.co.uk/f9HDWEKzRO8NtI5ePOLgh0Nn6pz4nXmQ"));
+  playlist.add(new Song("Vigilante Man","Glen Hansard","https://i.imgur.com/SvUzGQH.png","https://audio.jukehost.co.uk/MasC7udHqmabHGNLCJdlD9sSHIx9gpnV"));
+  playlist.add(new Song("Real American","Rick Derringer","https://i.imgur.com/CalYXXW.png","https://audio.jukehost.co.uk/5aZ2PQqoNvJN2kPuLCaOoGSHmkmI95lk"));
+
+  /* ---------- STYLES ---------- */
+  if (!document.getElementById("ipod-style")) {
+    const style = document.createElement("style");
+    style.id = "ipod-style";
+    style.textContent = `
+      #player{
+        height:191px;
+        display:flex;
+        gap:12px;
+        padding:10px;
+        background:linear-gradient(#f4f4f4,#d8d8d8);
+        border-radius:14px;
+        box-shadow:0 6px 18px rgba(0,0,0,.18)
+      }
+
+      #lcd{
+        display:flex;
+        gap:10px;
+        align-items:center
+      }
+
+      #cover{
+        width:128px;
+        height:128px;
+        border-radius:8px;
+        box-shadow:0 3px 10px rgba(0,0,0,.25)
+      }
+
+      #meta{
+        display:flex;
+        flex-direction:column
+      }
+
+      #title{
+        font-size:16px;
+        font-weight:600
+      }
+
+      #artist{
+        font-size:13px;
+        opacity:.7
+      }
+
+      #middle{
+        flex:1;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center; /* ← FIX */
+        gap:6px
+      }
+
+      #times{
+        width:95%;
+        display:flex;
+        justify-content:space-between;
+        font-size:11px;
+        opacity:.6
+      }
+
+      .bar{
+        width:95%;
+        height:6px;
+        background:#cfe6ff;
+        border-radius:4px;
+        overflow:hidden
+      }
+
+      .fill{
+        height:100%;
+        width:0%;
+        background:#4aa3ff
+      }
+
+      #wheelWrap{
+        display:flex;
+        align-items:center;
+        gap:8px
+      }
+
+      #wheel{
+        width:140px;
+        height:140px;
+        border-radius:50%;
+        background:radial-gradient(circle,#fff,#ddd,#c8c8c8);
+        box-shadow:
+          inset 0 2px 4px rgba(255,255,255,.8),
+          0 4px 12px rgba(0,0,0,.25);
+        position:relative
+      }
+
+      .wbtn{
+        position:absolute;
+        font-size:18px;
+        cursor:pointer
+      }
+
+      #menu{
+        top:12px;
+        left:50%;
+        transform:translateX(-50%)
+      }
+
+      #prev{
+        left:12px;
+        top:50%;
+        transform:translateY(-50%)
+      }
+
+      #next{
+        right:12px;
+        top:50%;
+        transform:translateY(-50%)
+      }
+
+      #play{
+        width:54px;
+        height:54px;
+        border-radius:50%;
+        background:linear-gradient(#fff,#e6e6e6);
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:20px;
+        box-shadow:
+          inset 0 1px 0 rgba(255,255,255,.9),
+          0 3px 8px rgba(0,0,0,.3)
+      }
+
+      #vol{
+        width:6px;
+        height:120px;
+        background:#cfe6ff;
+        border-radius:4px;
+        position:relative
+      }
+
+      #volFill{
+        position:absolute;
+        bottom:0;
+        width:100%;
+        height:30%;
+        background:#4aa3ff
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
+  /* ---------- DOM ---------- */
+  const player=document.createElement("div"); player.id="player";
+
+  const lcd=document.createElement("div"); lcd.id="lcd";
+  const cover=document.createElement("img"); cover.id="cover";
+  const meta=document.createElement("div"); meta.id="meta";
+  const title=document.createElement("div"); title.id="title";
+  const artist=document.createElement("div"); artist.id="artist";
+  meta.append(title,artist); lcd.append(cover,meta);
+
+  const middle=document.createElement("div"); middle.id="middle";
+  const times=document.createElement("div"); times.id="times";
+  const cur=document.createElement("span"); cur.textContent="0:00";
+  const dur=document.createElement("span"); dur.textContent="0:00";
+  times.append(cur,dur);
+  const prog=document.createElement("div"); prog.className="bar";
+  const progFill=document.createElement("div"); progFill.className="fill";
+  prog.append(progFill);
+  middle.append(times,prog);
+
+  const wheelWrap=document.createElement("div"); wheelWrap.id="wheelWrap";
+  const wheel=document.createElement("div"); wheel.id="wheel";
+  const menu=document.createElement("div"); menu.id="menu"; menu.className="wbtn"; menu.textContent="MENU";
+  const prev=document.createElement("div"); prev.id="prev"; prev.className="wbtn"; prev.textContent="◀";
+  const next=document.createElement("div"); next.id="next"; next.className="wbtn"; next.textContent="▶";
+  const play=document.createElement("div"); play.id="play"; play.textContent="▶";
+  wheel.append(menu,prev,next,play);
+
+  const vol=document.createElement("div"); vol.id="vol";
+  const volFill=document.createElement("div"); volFill.id="volFill";
+  vol.append(volFill);
+
+  wheelWrap.append(wheel,vol);
+  player.append(lcd,middle,wheelWrap);
+
+  gameWindow_player.insertAdjacentElement("afterend",player);
+
+  /* ---------- AUDIO ---------- */
+  const audio=document.createElement("audio");
+  document.body.append(audio);
+
+  function load(){
+    const s=playlist.current();
+    cover.src=s.coverLink;
+    title.textContent=s.title;
+    artist.textContent=s.artist;
+    audio.src=s.audioLink;
+  }
+  load();
+
+  play.onclick=()=>{
+    if(audio.paused){audio.play();play.textContent="❚❚";}
+    else{audio.pause();play.textContent="▶";}
+  };
+  next.onclick=()=>{playlist.next();load();audio.play();play.textContent="❚❚";};
+  prev.onclick=()=>{playlist.prev();load();audio.play();play.textContent="❚❚";};
+
+  audio.addEventListener("ended",()=>{
+    playlist.next();load();audio.play();play.textContent="❚❚";
+  });
+
+  audio.addEventListener("timeupdate",()=>{
+    progFill.style.width=(audio.currentTime/audio.duration*100)+"%";
+    cur.textContent=format(audio.currentTime);
+  });
+  audio.addEventListener("loadedmetadata",()=>{
+    dur.textContent=format(audio.duration);
+  });
+
+  let volLvl=.3;
+  audio.volume=volLvl;
+  volFill.style.height=(volLvl*100)+"%";
+  vol.onclick=e=>{
+    const r=vol.getBoundingClientRect();
+    volLvl=1-(e.clientY-r.top)/r.height;
+    audio.volume=Math.max(0,Math.min(1,volLvl));
+    volFill.style.height=(audio.volume*100)+"%";
+  };
+
+  function format(t){
+    t=Math.floor(t);
+    return Math.floor(t/60)+":"+(t%60<10?"0":"")+t%60;
+  }
+}
+
+/* -------------------------------------------------
+   INIT
+------------------------------------------------- */
+const gameWindow_player = document.getElementById("game_window");
+
+$("#game_start").click((event) => {
+    event.preventDefault();
+    $("#election_id_button").click((event) => {
+        event.preventDefault();
+		e.election_json[0].fields.image_url = "https://file.garden/aPF6sdg4jk-629YB/EdwardsElectionImage.jpg"
+		nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#013763";
+		$("#game_window")[0].style.backgroundColor = "#00375c";
+		$(".container")[0].style.backgroundColor = "#0a418a";
+		document.head.innerHTML += "<style>#results_container {color:#FFFFFF;} .inner_window_w_desc {background-color:#33568F!important;}</style>";
+		document.getElementById("header").src = "https://file.garden/aNxawo8jlVkymd8s/joe%2008/election%20%2B%20music%20play/xaEI2bQ%20-%20Imgur.png";
+		document.body.background = "https://file.garden/aNxawo8jlVkymd8s/joe%2008/election%20%2B%20music%20play/oVU55s9%20-%20Imgur.png";
+        setupMusicPlayer();
+	})
+})
+
+// ===============================
+// Dynamic tooltip CSS (2004 forum style)
+// ===============================
+function addDynamicCSS() {
+  const css = `
+    .mytooltip {
+      position: relative;
+      display: inline;
+      font-family: Tahoma, Verdana, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      cursor: help;
+      text-decoration: underline;
+      color: #003399;
+    }
+
+    .mytooltip:hover {
+      color: #000066;
+    }
+
+    .mytooltip .mytooltiptext {
+      visibility: hidden;
+      position: absolute;
+      z-index: 999;
+      bottom: 120%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #f2f2f2;
+      color: #000;
+      border: 1px solid #6b7c9e;
+      padding: 6px 8px;
+      width: 220px;
+      font-family: Tahoma, Verdana, Arial, sans-serif;
+      font-size: 11px;
+      font-weight: normal;
+      line-height: 1.35;
+      text-align: left;
+      box-shadow: none;
+    }
+
+    .mytooltip.show .mytooltiptext {
+      visibility: visible;
+    }
+
+    .mytooltip img {
+      display: block;
+      margin: 6px auto 4px;
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #999;
+      background: #fff;
+    }
+  `;
+
+  const styleElem = document.createElement("style");
+  styleElem.appendChild(document.createTextNode(css));
+  document.head.appendChild(styleElem);
+
+  document.body.addEventListener("mouseenter", e => {
+    const el = e.target.closest(".mytooltip");
+    if (el) el.classList.add("show");
+  }, true);
+
+  document.body.addEventListener("mouseleave", e => {
+    const el = e.target.closest(".mytooltip");
+    if (el) el.classList.remove("show");
+  }, true);
+}
+
+addDynamicCSS();
+
+
+// ===============================
+// Compact tooltip helpers (aliases)
+// ===============================
+function createTooltipSet(names, html) {
+  return names.map(name => ({
+    searchString: name,
+    explanationText: html
+  }));
+}
+
+
+// ===============================
+// Tooltip definitions
+// ===============================
+tooltipList = [
+
+  ...createTooltipSet(
+    ["Iraq"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/Iraq.jpg> A country that the Bush administration unjustly invaded."
+  ),
+
+  ...createTooltipSet(
+    ["George W. Bush", "Bush"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/BushW.jpg> So called president. He's eager to see you fall. You need to stop him from finishing his evil agenda."
+  ),
+
+  ...createTooltipSet(
+    ["Kerry", "Senator Kerry", "John Kerry"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/KerryTooltip.jpg> One of your opponents in the primary. He's a little disappointed about the loss. Maybe in another universe things went differently."
+  ),
+
+  ...createTooltipSet(
+    ["Iraq War", "War in Iraq"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/IraqWar.png> Americans are dying here for Bush's lies."
+  ),
+
+  ...createTooltipSet(
+    ["Hillary Clinton", "Hillary"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/HillaryTooltip.jpg> Senator from New York. She would've been a great running mate, although she would've wanted concessions from you."
+  ),
+
+  ...createTooltipSet(
+    ["Elizabeth"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/ElizabethTooltip.png> Your wife."
+  ),
+
+  ...createTooltipSet(
+    ["Cheney", "Dick Cheney"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/CheneyTooltip.jpg> A warmonger and the actual guy in charge of this administration."
+  ),
+
+  ...createTooltipSet(
+    ["Al Gore", "Gore"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/Al%20Gore.jpg> The Democratic nominee in 2000. You were almost his running mate."
+  ),
+
+  ...createTooltipSet(
+    ["Kucinich", "Dennis Kucinich", "Representative Kucinich"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/Kucinich.jpg> Representative from Ohio. A bit kooky. It's probably for the best if you ignore him."
+  ),
+
+  ...createTooltipSet(
+    ["Patriot Act"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/PatriotActTooltip.jpg> A law that lets the government spy on people."
+  ),
+
+  ...createTooltipSet(
+    ["Tax cuts", "Bush Tax Cuts"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/TaxCutsTooltip.jpg> These tax cuts were supposedly made to give the middle class relief. It's obvious these cuts are just for the wealthy."
+  ),
+
+  ...createTooltipSet(
+    ["September 11th", "9/11"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/tragedyTooltip.jpg> A horrific tragedy."
+  ),
+  ...createTooltipSet(
+    ["Howard Dean", "Howard", "Dean"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/Deanscream.jpg> YEAGGHHHHHH"
+  ),
+
+  ...createTooltipSet(
+    ["Joe Lieberman", "Lieberman"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/LiebermanTooltip.jpg> Cheney's favorite Democrat."
+  ),
+
+  ...createTooltipSet(
+    ["WMDs", "Weapons of Mass Destruction", "weapons of mass destruction"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/WMDTooltip.jpg> Still haven't found them."
+  ),
+
+  ...createTooltipSet(
+    ["Karl Rove", "Rove"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/RoveTooltip.jpg> Bush's attack dog. He wants to ruin your life."
+  ),
+
+ ...createTooltipSet(
+    ["Two Americas", "two Americas", "fighting for one America"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/TwoAmericasTooltip.jpg> Your campaign's central message that one America exists for the wealthy, while another exists for everyone else."
+  ),
+
+ ...createTooltipSet(
+    ["Fox News", "Fox"],
+    "<img src=https://file.garden/aPF6sdg4jk-629YB/FoxTooltip.png> The president's favorite network."
+  ),
+
+];

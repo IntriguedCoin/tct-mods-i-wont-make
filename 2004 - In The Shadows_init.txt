@@ -1,0 +1,1110 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 9,
+        "fields": {
+            "year": 2000,
+            "summary": "<p>George W. Bush attempts to chart a new direction for the U.S., while Al Gore tries to win election as the sitting Vice President. Ralph Nader is a leftist third-party candidate. The economy has been booming, until quite recently, but President Clinton has been through an embarrassing scandal.</p><p>Candidates will debate what to do with a $200 billion budget surplus, among other things. In the real world, Florida was decided by 537 votes after 36 days and a Supreme Court decision.</p>",
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/CheneyElection.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/rove-brazile.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2004 - In The Shadows"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 77,
+        "fields": {
+            "first_name": "Dick",
+            "last_name": "Cheney",
+            "election": 9,
+            "party": "Republican",
+            "state": "Wyoming",
+            "priority": 1,
+            "description": "<p>George W. Bush enters 2000 with the support of the Republican establishment and the name recognition of his father. He has governed Texas for five years and won bipartisan support in that state. He seeks to duplicate that formula on the national stage.</p><p>Bush has broad appeal and a united base, but lacks experience and gravitas in the eyes of some. Can he make the case that he will move beyond the partisanship of the Clinton years and bring \"compassionate conservatism\" to the nation?</p>",
+            "color_hex": "#3b0202",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://file.garden/aPF6sdg4jk-629YB/Cheney%20Bro.jpeg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Confounding the predictions of many experts, you were able to turn the tables on Al Gore, in spite of the economy and Clinton's popularity.</p><p>On the political front, you can push for tax cuts to spur the economy and return the budget surplus to the American people. You might also pursue education and immigration reform, individual Social Security accounts, and new laws to defend the family and the sanctity of life.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "Generic",
+            "last_name": "Democrat",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Tennessee",
+            "priority": 2,
+            "description": "<p>Al Gore enters the 2000 election as the Democratic candidate after eight years as Vice President under Bill Clinton.</p><p>Gore has a lot of options in his campaign. He can embrace the legacy of Clinton, for better or worse. Politically, he can run as a centrist, or move to the left and run as a more traditional liberal Democrat than Clinton did. The presence of the well-known Ralph Nader as a Green Party candidate complicates this decision. Gore is essentially campaigning on two fronts.</p>",
+            "color_hex": "#00007a",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/al-gore-2000.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 79,
+        "fields": {
+            "first_name": "Ralph",
+            "last_name": "Nader",
+            "election": 9,
+            "party": "Green",
+            "state": "Connecticut",
+            "priority": 3,
+            "description": "<p>Ralph Nader enters the 2000 election as the Green candidate after years as an activist and consumer advocate.</p><p>After eight years of Bill Clinton, it is clear that the United States needs a true liberal alternative -- one that will fight for fair trade, universal health care, free college, and campaign finance reform. Nader's primary goal in this election is to win 5% of the popular vote, which will qualify the Green Party for federal matching funds in 2004.</p>",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/ralph-nader-2000.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>",
+            "electoral_loss_message": "<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash.</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 80,
+        "fields": {
+            "first_name": "Pat",
+            "last_name": "Buchanan",
+            "election": 9,
+            "party": "Reform",
+            "state": "Virginia",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 81,
+        "fields": {
+            "first_name": "Dick",
+            "last_name": "Cheney",
+            "election": 9,
+            "party": "Republican",
+            "state": "Wyoming",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/dick-cheney-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Dick Cheney is a seasoned operative of the Republican Party who has served as White House Chief of Staff, Minority Whip in Congress, Secretary of Defense, and as CEO of Halliburton. He would be a respected choice across the Republican spectrum, and would add experience and gravitas to the Republican ticket.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 82,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Danforth",
+            "election": 9,
+            "party": "Republican",
+            "state": "Missouri",
+            "priority": 6,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/john-danforth-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>John Danforth served four terms as Senator from Missouri. He has broad experience in government, and as a moderate Republican would reinforce Bush's claim to be a uniter. Danforth also has close relationships with conservative stalwarts such as Kit Bond, Clarence Thomas, and John Ashcroft, and would not arouse undue suspicion from the conservative wing of the party. Winning Missouri back would be a key piece of any Republican victory in 2000.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 83,
+        "fields": {
+            "first_name": "Tom",
+            "last_name": "Ridge",
+            "election": 9,
+            "party": "Republican",
+            "state": "Pennsylvania",
+            "priority": 7,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/tom-ridge-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Tom Ridge is the popular Governor of a large swing state. Pennsylvania's 23 electoral votes would almost ensure a Bush victory if Ridge could deliver them. He has a reputation as an able administrator and has been very tough on crime. However, he has also been pro-choice for his entire career, and his selection as running mate could cause issues with the Republican base in other regions.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 84,
+        "fields": {
+            "first_name": "Colin",
+            "last_name": "Powell",
+            "election": 9,
+            "party": "Republican",
+            "state": "Virginia",
+            "priority": 8,
+            "description": "''",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/colin-powell-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Colin Powell is a moderate Republican and a key general from the Desert Storm campaign. He enjoys high personal popularity among the American electorate. He would be the first African-American to be a running mate for a major party. It will take some strong inducements to get Powell to run, however. He has repeatedly stated that he is not seeking the role, but perhaps you could persuade him by taking a moderate position on the social issues of the day.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 85,
+        "fields": {
+            "first_name": "Joe",
+            "last_name": "Lieberman",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Connecticut",
+            "priority": 9,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/joe-lieberman-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Joe Lieberman is a moderate Democrat and Orthodox Jew who has served as a Senator from Connecticut. He would be the first Jewish candidate or running mate from a major party. He was also a prominent critic of Bill Clinton's missteps during his time in the White House. Geographically, Lieberman could help with Gore's vote total in the critical state of Florida.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 86,
+        "fields": {
+            "first_name": "Bob",
+            "last_name": "Graham",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Florida",
+            "priority": 10,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/bob-graham-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Bob Graham is a Senator and former Governor from Florida. His popularity in that state could be crucial to a Democratic victory in 2000. He is fairly moderate and was one of Bill Clinton's top choices for running mate before Clinton went with Gore. His focus has been on the environment, education, and intelligence issues.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 87,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Kerry",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Massachusetts",
+            "priority": 11,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/john-kerry-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>John Kerry is a Senator from Massachusetts. He gained prominence in his youth as a Vietnam Veteran Against the War. He also won a Silver Star in that war. He is a solid liberal on the political spectrum. His home state is strongly Democratic, but his views may help the Democrats reduce the loss of support to Ralph Nader. He can also be helpful in New Hampshire.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 88,
+        "fields": {
+            "first_name": "Evan",
+            "last_name": "Bayh",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Indiana",
+            "priority": 12,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/evan-bayh-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Evan Bayh is a Senator from Indiana and a former Governor. He is broadly popular in that state and is a leader of the moderate wing of the Democrats. This could help the Democrats compete in the Midwest and South, but it could also alienate the left-wing of the party and drive additional support to Ralph Nader's bid.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 89,
+        "fields": {
+            "first_name": "Winona",
+            "last_name": "LaDuke",
+            "election": 9,
+            "party": "Green",
+            "state": "Minnesota",
+            "priority": 13,
+            "description": "''",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/winona-laduke-2000.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>Winona LaDuke is a Native American activist of Ojibwe ancestry. She lives in Minnesota and has been active in attempts to regain land that once belonged to various American Indian tribes. She has written a book and started organizations in support of this issue.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 90,
+        "fields": {
+            "first_name": "Ezola",
+            "last_name": "Foster",
+            "election": 9,
+            "party": "Reform",
+            "state": "California",
+            "priority": 14,
+            "description": "''",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "''",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 57,
+        "fields": {
+            "candidate": 80,
+            "running_mate": 90
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 56,
+        "fields": {
+            "candidate": 79,
+            "running_mate": 89
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 48,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 81
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 52,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 85
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 53,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 86
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 49,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 82
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 54,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 87
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 55,
+        "fields": {
+            "candidate": 78,
+            "running_mate": 88
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 50,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 83
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 51,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 84
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Dan Bryan"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 9,
+        "year": 2000,
+        "is_premium": 0,
+        "display_year": "2004 - In The Shadows"
+    }
+]
+
+jet_data = {
+    "headerColor": "#100a0b",
+    "windowColor": "#091115",
+    "containerColor": "#140606",
+    "innerWindowColor": "#ededed",
+    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "𝐈𝐧 𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰𝐬"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>𝐈𝐧 𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰𝐬</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#100a0b";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#091115";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#140606";
+
+document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ededed!important;}</style>";
+
+//#endcode
+
+(function () {
+  let style = document.createElement("style");
+  style.type = "text/css";
+  style.id = "in-the-shadows-dark";
+
+  style.innerHTML = `
+/* =========================
+   BASE DARK THEME
+========================= */
+
+body {
+  background-color: #050607 !important;
+  color: #e8e8e8 !important;
+}
+
+.game_header {
+  background: linear-gradient(180deg, #0b0f14, #07090d) !important;
+  border-bottom: 1px solid #16202b;
+}
+
+#game_window {
+  background: #07090d !important;
+  border: 1px solid #16202b;
+}
+
+.container {
+  background: #06080b !important;
+  border: 1px solid #141c26;
+  box-shadow: 0 0 18px rgba(0,0,0,0.6);
+}
+
+/* =========================
+   INNER WINDOWS
+========================= */
+
+.inner_window,
+.inner_window_w_desc,
+.inner_window_question {
+  background: #0c1117 !important;
+  border: 1px solid #1d2733 !important;
+  color: #eaeaea !important;
+}
+
+/* =========================
+   QUESTION BAR (H3 HEADER)
+========================= */
+
+.inner_window_question h3,
+.overlay_window h3,
+#state_info h3,
+#state_result h3,
+#overall_result h3 {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #cfd6df !important;
+  padding: 8px 10px;
+  margin-bottom: 9px;
+  box-shadow: 0 0 8px rgba(255,255,255,0.6);
+}
+
+/* =========================
+   ANSWER OPTIONS — ANIMATED
+========================= */
+/* ANSWER VISUALS REMOVED: using default app styles; no custom animations or glow */
+
+/* =========================
+   CANDIDATE BIOS (FIXED)
+========================= */
+
+.inner_window_w_desc {
+  background: #f4f6f9 !important;
+}
+
+.inner_window_w_desc *,
+.inner_window_w_desc p,
+.inner_window_w_desc div,
+.inner_window_w_desc span,
+.inner_window_w_desc li {
+  color: #000000 !important;
+  opacity: 1 !important;
+}
+
+.inner_window_w_desc h1,
+.inner_window_w_desc h2,
+.inner_window_w_desc h3 {
+  color: #111111 !important;
+}
+
+.inner_window_w_desc img {
+  border: 1px solid #999 !important;
+}
+
+/* =========================
+   LINKS / RESULTS
+========================= */
+
+a {
+  color: #4f8fd8;
+}
+a:hover {
+  color: #79aef0;
+}
+
+#results_container {
+  color: #f0f0f0 !important;
+}
+
+/* =========================
+   SCROLLBARS
+========================= */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #050607;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a2633;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2b3f55;
+}
+
+/* =========================
+   MAP SAFETY
+========================= */
+
+#map_container,
+#map {
+  background: transparent !important;
+}
+  `;
+
+  document.head.appendChild(style);
+})();
+
+// Select the node that will be observed for mutations
+  const windowsAdvisorTargetNode = document.getElementById("game_window");
+  
+  // Options for the observer (which mutations to observe)
+  const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+  
+  // Callback function to execute when mutations are observed
+  const callback = (mutationList, observer) => {
+      visitWindow = document.getElementsByClassName("overlay_window")[0];
+  
+      if(visitWindow == null || visitWindow.classList.contains("done")) {
+          return;
+      }
+      visitWindow.classList.add("done");
+      visitWindow.classList.add("window");
+      let titleBar = visitWindow.querySelector("h3");
+      titleBar.classList.add("title-bar");
+      titleBar.classList.add("title-bar-text")
+      titleBar.style.paddingLeft = "3px";
+  };
+  
+  class Song {
+    constructor(title, artist, coverLink, audioLink) {
+      this.title = title;
+      this.artist = artist;
+      this.coverLink = coverLink;
+      this.audioLink = audioLink;
+    }
+    getTitle() {
+      return this.title;
+    }
+  
+    getArtist() {
+      return this.artist;
+    }
+  
+    getCoverLink() {
+      return this.coverLink;
+    }
+  
+    getAudioLink() {
+      return this.audioLink;
+    }
+  }
+  
+  class Playlist {
+    constructor() {
+      this.songs = [];
+      this.currentSongIndex = 0;
+    }
+  
+    addSong(song) {
+      this.songs.push(song);
+    }
+  
+    getCurrentSong() {
+      return this.songs[this.currentSongIndex];
+    }
+  
+    playNext() {
+      this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+  
+    playPrevious() {
+      this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+  }
+  window.Playlist=Playlist
+  window.Song=Song
+  
+  function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    if (!audio) return;
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  }
+  window.changePlaylist=changePlaylist
+  
+    function updateUI(playlist) {
+      const currentSong = playlist.getCurrentSong();
+      var player = document.getElementById("player");
+      if(!player) return;
+      player.querySelector("#cover").src = currentSong.getCoverLink();
+      player.querySelector("#title").textContent = currentSong.getTitle();
+      player.querySelector("#artist").textContent = currentSong.getArtist();
+    }
+  
+  window.updateUI=updateUI
+  
+  
+  function setupMusicPlayer() {
+    playlist = new Playlist();
+  
+  
+    const song1 = new Song(
+      "Counting Bodies Like Sheep",
+      "A Perfect Circle",
+      "https://upload.wikimedia.org/wikipedia/en/1/11/A_perfect_circle_counting_bodies.jpg",
+      "https://audio.jukehost.co.uk/H03r89sKddgV0CLNDHNdqu6IBpBGCRTr"
+    );
+    
+    const song2 = new Song(
+      "American Idiot",
+      "Green Day",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Green_Day_-_American_Idiot_album_cover.png/220px-Green_Day_-_American_Idiot_album_cover.png",
+      "https://audio.jukehost.co.uk/37xW79v6txBYeEgXI3jzCRHS5yGnHJFl"
+    );
+  
+    const song3 = new Song(
+      "America's Army™",
+      "Propagandhi",
+      "https://www.aversionline.com/assets/images/cache/propagandhi-potemkin-city-limits-cover_-_28de80_-_e82f5d0e6510d9fbbcd89617445200bc31aaf6c6.jpg",
+      "https://audio.jukehost.co.uk/WppjtiBwaIWyswZYGF5pbMNbF7f9mv7H"
+    );
+  
+    const song4 = new Song(
+      "Prayer of the Refugee",
+      "Rise Against",
+      "https://upload.wikimedia.org/wikipedia/en/7/73/Rise_Against_-_The_Sufferer_%26_The_Witness.jpg",
+      "https://audio.jukehost.co.uk/wZbLTTDel7YTrEqIcfPeQFHCGcsr1WrP"
+    );
+  
+    const song5 = new Song(
+      "Beast",
+      "Nico Vega",
+      "https://i1.sndcdn.com/artworks-2sg1kWr6e0wp-0-t500x500.jpg",
+      "https://audio.jukehost.co.uk/HrP06WgAWji67ytIBRrSAqGo5adsr39J"
+    );
+  
+    const song6 = new Song(
+      "B.Y.O.B.",
+      "System of a Down",
+      "https://upload.wikimedia.org/wikipedia/en/0/02/Mezmerize-LP.jpg",
+      "https://audio.jukehost.co.uk/TDnRpwxp5oGXmhaO0HXt6Xti2Wr3JQ2t"
+    );
+  
+    const song7 = new Song(
+      "Mosh",
+      "Eminem",
+      "https://upload.wikimedia.org/wikipedia/en/b/b4/Encore_%28Eminem_album%29_coverart.jpg",
+      "https://audio.jukehost.co.uk/1ZqS3DttoOnMtFQ8VFTUzrXouWNlRr9V"
+    );
+  
+    playlist.addSong(song1);
+    playlist.addSong(song2);
+    playlist.addSong(song3);
+    playlist.addSong(song4);
+    playlist.addSong(song5);
+    playlist.addSong(song6);
+    playlist.addSong(song7);
+  
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+
+  const displayBox = document.createElement("div");
+  displayBox.id = "display-box";
+
+  const coverElement = document.createElement("img");
+  coverElement.id = "cover";
+  displayBox.appendChild(coverElement);
+
+  const infoContainer = document.createElement("div");
+  infoContainer.id = "info-container";
+  infoContainer.style.color = "white"; // Set text color to white
+
+  const songInfo = document.createElement("div");
+  songInfo.id = "song-info";
+
+  const titleElement = document.createElement("h3");
+  titleElement.id = "title";
+  titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
+  songInfo.appendChild(titleElement);
+
+  const artistElement = document.createElement("p");
+  artistElement.id = "artist";
+  songInfo.appendChild(artistElement);
+
+  infoContainer.appendChild(songInfo);
+  displayBox.appendChild(infoContainer);
+
+  playerContainer.appendChild(displayBox);
+
+  const controlsContainer = document.createElement("div");
+  controlsContainer.id = "controls-container";
+
+  const controls = document.createElement("div");
+  controls.id = "controls";
+
+  const prevButton = document.createElement("button");
+  prevButton.id = "prevButton";
+  prevButton.textContent = '⏮';
+  controls.appendChild(prevButton);
+  const playPauseButton = document.createElement("button");
+  playPauseButton.id = "playPauseButton";
+  controls.appendChild(playPauseButton);
+
+  const nextButton = document.createElement("button");
+  nextButton.id = "nextButton";
+  nextButton.textContent = '⏭';
+  controls.appendChild(nextButton);
+
+  controlsContainer.appendChild(controls);
+
+  // SVG icon helpers for play/pause (no emoji)
+  function setPlayIcon(btn){
+    btn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 4L20 12L6 20V4Z" fill="currentColor"/></svg>';
+  }
+  function setPauseIcon(btn){
+    btn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="4" width="4" height="16" fill="currentColor"/><rect x="14" y="4" width="4" height="16" fill="currentColor"/></svg>';
+  }
+  // initialize (default: pause icon so player appears playing)
+  setPauseIcon(playPauseButton);
+
+  playPauseButton.addEventListener("click", function () {
+    const audio = document.getElementById("audio");
+    if (!audio) return;
+    if (audio.paused) {
+      audio.play();
+      setPauseIcon(playPauseButton);
+    } else {
+      audio.pause();
+      setPlayIcon(playPauseButton);
+    }
+  });
+  
+  nextButton.addEventListener("click", function () {
+    playlist.playNext();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    if (!audio) return;
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+  prevButton.addEventListener("click", function () {
+    playlist.playPrevious();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    if (!audio) return;
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+      const progressBarContainer = document.createElement("div");
+      progressBarContainer.id = "progress-bar-container";
+
+      const progressBar = document.createElement("progress");
+      progressBar.type = "range";
+      progressBar.id = "progress-bar";
+      progressBar.value = "0";
+      progressBar.max = "100";
+
+      progressBarContainer.appendChild(progressBar);
+      controlsContainer.appendChild(progressBarContainer);
+      playerContainer.appendChild(controlsContainer);
+  
+  const volumeContainer = document.createElement("div");
+  volumeContainer.id = "volume-container";
+  
+    const volumeSliderContainer = document.createElement("div");
+    volumeSliderContainer.classList.add("is-vertical");
+    volumeSliderContainer.style.marginLeft = "23%";
+    volumeSliderContainer.style.height = "126px";
+  
+    const volumeSlider = document.createElement("input");
+    volumeSlider.type = "range";
+    volumeSlider.id = "volumeSlider";
+    volumeSlider.min = 0;
+    volumeSlider.max = 9;
+    volumeSlider.step = 1;
+    volumeSlider.value = 1; // Initial volume
+  
+    volumeSliderContainer.appendChild(volumeSlider);
+    // create a visible vertical volume bar to show white background with colored fill
+    const volumeVisual = document.createElement('div');
+    volumeVisual.id = 'volume_visual';
+    const volumeFill = document.createElement('i');
+    volumeVisual.appendChild(volumeFill);
+    volumeSliderContainer.appendChild(volumeVisual);
+  
+    const volumeDisplay = document.createElement("span");
+    volumeDisplay.id = "volume-display";
+    volumeDisplay.style.fontWeight = 'bold'; 
+    volumeDisplay.style.display = 'none';
+    volumeDisplay.textContent = "1";
+  
+    volumeContainer.appendChild(volumeSliderContainer);
+    volumeContainer.appendChild(volumeDisplay);
+  
+    playerContainer.appendChild(volumeContainer);
+
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+  
+  
+    function updateProgressBar() {
+      const audio = document.getElementById("audio");
+      if (!audio || !isFinite(audio.duration) || audio.duration === 0) return;
+      const progress = (audio.currentTime / audio.duration) * 100;
+      try { progressBar.value = progress; } catch (e) {}
+    }
+  
+   
+    progressBar.addEventListener("input", function () {
+      const audio = document.getElementById("audio");
+      if (!audio || !isFinite(audio.duration)) return;
+      const seekTime = (progressBar.value / 100) * audio.duration;
+      audio.currentTime = seekTime;
+    });
+  
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.volume = 1/9;
+  
+    audio.addEventListener("timeupdate", updateProgressBar);
+    audio.addEventListener("ended", function () {
+      // Play the next song when the current song ends
+      playlist.playNext();
+      updateUI(playlist);
+      audio.src = playlist.getCurrentSong().audioLink;
+      audio.play();
+    });
+  
+    let currentVolume = parseInt(volumeSlider.value, 10); // Initial volume
+
+    // keep input for programmatic/keyboard changes but use visual control for pointer
+    volumeSlider.addEventListener("input", function () {
+      currentVolume = parseInt(volumeSlider.value, 10);
+      updateVolumeDisplay();
+      updateAudioVolume();
+      // sync visual
+      const audioEl = document.getElementById('audio');
+      if (audioEl) volumeFill.style.height = (audioEl.volume * 100) + '%';
+    });
+
+    // pointer interaction for vertical visual (drag/click)
+    let dragging = false;
+    function setVolumeFromPointer(clientY){
+      const r = volumeVisual.getBoundingClientRect();
+      let pct = (r.bottom - clientY) / r.height;
+      pct = Math.max(0, Math.min(1, pct));
+      const audioEl = document.getElementById('audio');
+      if (!audioEl) return;
+      audioEl.volume = pct;
+      // update hidden input for parity
+      try{ volumeSlider.value = Math.round(pct * parseInt(volumeSlider.max||9,10)); } catch(e){}
+      volumeFill.style.height = (pct * 100) + '%';
+    }
+    volumeVisual.addEventListener('pointerdown', (e)=>{ dragging = true; volumeVisual.setPointerCapture(e.pointerId); setVolumeFromPointer(e.clientY); });
+    volumeVisual.addEventListener('pointermove', (e)=>{ if(dragging) setVolumeFromPointer(e.clientY); });
+    volumeVisual.addEventListener('pointerup', (e)=>{ dragging = false; try{ volumeVisual.releasePointerCapture(e.pointerId);}catch{} });
+
+    function updateVolumeDisplay() {
+      volumeDisplay.textContent = currentVolume;
+    }
+
+     function updateAudioVolume() {
+      const audio = document.getElementById("audio");
+      if (!audio) return;
+      audio.volume = currentVolume / 9; // Set volume between 0 and 1
+    }
+  
+    document.body.appendChild(audio);
+    audio.play();
+  
+    // Update the UI when the page loads
+    updateUI(playlist);
+  }
+  
+  const style = document.createElement("style");
+  style.textContent = `
+  #player {
+      border: 3px solid #C9C9C9; /* Add your desired border style */
+      display: flex;
+      flex-direction: row;
+    height:191px;
+      background-color: #000000;
+    }
+
+    #display-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+
+    #cover {
+      width: 176px;
+    height:176px;
+    }
+
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height:178px;
+    width:127px;
+    margin-top: 3px;
+    }
+
+    #song-info {
+      width: 100%;
+    padding:5px;
+    }
+
+    #controls-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      width:100%;
+    padding-top:15px;
+
+    }
+    .is-vertical #volumeSlider {
+    /* Vertical slider: keep input hidden (we use visual bar) but allow keyboard access */
+    display: none;
+    }
+
+    /* Visual vertical volume bar */
+    #volume_visual { width: 11px; height: 170px; background: #ffffff; border-radius:6px; position: relative; overflow: hidden; margin-left: -15px; }
+    #volume_visual > i { position: absolute; bottom: 0; left: 0; right: 0; height: 50%; background: linear-gradient(180deg,#4f8fd8,#79aef0); }
+
+    #controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 80%;
+    }
+
+    #progress-bar-container {
+      width: 100%;
+    }
+
+    #progress-bar {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      margin-Top: 20px;
+    }
+    
+  `;
+  
+  document.head.appendChild(style);
+  
+  const gameWindow_player = document.getElementById("game_window");
+  //use this function directly or put it in an event listener to start the music on the press of a certain button
+  setupMusicPlayer();
+  
